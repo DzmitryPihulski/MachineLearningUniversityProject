@@ -1,0 +1,94 @@
+2025-05-25 12:03:09,758 - INFO - Testing for: xlm-roberta
+2025-05-25 12:03:09,758 - INFO - Evaluating gamma: scale
+2025-05-25 12:03:13,068 - INFO - Fold 1 - Gamma scale - F1-score: 0.7411
+2025-05-25 12:03:15,995 - INFO - Fold 2 - Gamma scale - F1-score: 0.7390
+2025-05-25 12:03:18,775 - INFO - Fold 3 - Gamma scale - F1-score: 0.7359
+2025-05-25 12:03:20,770 - INFO - Fold 4 - Gamma scale - F1-score: 0.7418
+2025-05-25 12:03:22,710 - INFO - Fold 5 - Gamma scale - F1-score: 0.7425
+2025-05-25 12:03:24,969 - INFO - Fold 6 - Gamma scale - F1-score: 0.7414
+2025-05-25 12:03:26,929 - INFO - Fold 7 - Gamma scale - F1-score: 0.7495
+2025-05-25 12:03:29,081 - INFO - Fold 8 - Gamma scale - F1-score: 0.7408
+2025-05-25 12:03:31,487 - INFO - Fold 9 - Gamma scale - F1-score: 0.7425
+2025-05-25 12:03:34,249 - INFO - Fold 10 - Gamma scale - F1-score: 0.7359
+2025-05-25 12:03:34,249 - INFO - Evaluating gamma: auto
+2025-05-25 12:03:36,081 - INFO - Fold 1 - Gamma auto - F1-score: 0.7411
+2025-05-25 12:03:38,174 - INFO - Fold 2 - Gamma auto - F1-score: 0.7385
+2025-05-25 12:03:40,146 - INFO - Fold 3 - Gamma auto - F1-score: 0.7363
+2025-05-25 12:03:41,969 - INFO - Fold 4 - Gamma auto - F1-score: 0.7418
+2025-05-25 12:03:43,757 - INFO - Fold 5 - Gamma auto - F1-score: 0.7420
+2025-05-25 12:03:45,600 - INFO - Fold 6 - Gamma auto - F1-score: 0.7409
+2025-05-25 12:03:47,755 - INFO - Fold 7 - Gamma auto - F1-score: 0.7512
+2025-05-25 12:03:49,365 - INFO - Fold 8 - Gamma auto - F1-score: 0.7433
+2025-05-25 12:03:50,879 - INFO - Fold 9 - Gamma auto - F1-score: 0.7425
+2025-05-25 12:03:52,473 - INFO - Fold 10 - Gamma auto - F1-score: 0.7359
+2025-05-25 12:03:52,473 - INFO - Starting statistical analysis for Gamma scores.
+2025-05-25 12:03:52,561 - INFO - Wilcoxon test statistic: 9.0000, p-value: 0.8438
+2025-05-25 12:03:52,561 - INFO - No significant difference found between gamma values.
+2025-05-25 12:03:52,561 - INFO - Final gamma F1-scores per fold:
+2025-05-25 12:03:52,561 - INFO - scale: [0.7410832232496698, 0.7390146471371505, 0.7359249329758714, 0.7418278852568378, 0.7425149700598802, 0.7414372061786434, 0.7495016611295681, 0.7407903549899532, 0.7425149700598802, 0.7359249329758714]
+2025-05-25 12:03:52,561 - INFO - auto: [0.7410832232496698, 0.7385229540918163, 0.7362784471218207, 0.7418278852568378, 0.7420212765957447, 0.7409395973154362, 0.7511612475116125, 0.7433155080213903, 0.7425149700598802, 0.7359249329758714]
+2025-05-25 12:03:52,561 - INFO - No single best gamma found.
+2025-05-25 12:03:56,774 - INFO - Testing for: labse
+2025-05-25 12:03:56,774 - INFO - Evaluating gamma: scale
+2025-05-25 12:03:59,155 - INFO - Fold 1 - Gamma scale - F1-score: 0.8906
+2025-05-25 12:04:02,890 - INFO - Fold 2 - Gamma scale - F1-score: 0.8922
+2025-05-25 12:04:06,467 - INFO - Fold 3 - Gamma scale - F1-score: 0.8844
+2025-05-25 12:04:08,875 - INFO - Fold 4 - Gamma scale - F1-score: 0.8857
+2025-05-25 12:04:10,615 - INFO - Fold 5 - Gamma scale - F1-score: 0.8910
+2025-05-25 12:04:12,293 - INFO - Fold 6 - Gamma scale - F1-score: 0.8887
+2025-05-25 12:04:13,950 - INFO - Fold 7 - Gamma scale - F1-score: 0.8917
+2025-05-25 12:04:15,822 - INFO - Fold 8 - Gamma scale - F1-score: 0.8915
+2025-05-25 12:04:19,249 - INFO - Fold 9 - Gamma scale - F1-score: 0.8913
+2025-05-25 12:04:21,150 - INFO - Fold 10 - Gamma scale - F1-score: 0.8912
+2025-05-25 12:04:21,150 - INFO - Evaluating gamma: auto
+2025-05-25 12:04:22,904 - INFO - Fold 1 - Gamma auto - F1-score: 0.8799
+2025-05-25 12:04:26,074 - INFO - Fold 2 - Gamma auto - F1-score: 0.8821
+2025-05-25 12:04:29,182 - INFO - Fold 3 - Gamma auto - F1-score: 0.8737
+2025-05-25 12:04:32,249 - INFO - Fold 4 - Gamma auto - F1-score: 0.8749
+2025-05-25 12:04:35,092 - INFO - Fold 5 - Gamma auto - F1-score: 0.8785
+2025-05-25 12:04:36,780 - INFO - Fold 6 - Gamma auto - F1-score: 0.8739
+2025-05-25 12:04:38,656 - INFO - Fold 7 - Gamma auto - F1-score: 0.8812
+2025-05-25 12:04:40,689 - INFO - Fold 8 - Gamma auto - F1-score: 0.8804
+2025-05-25 12:04:42,434 - INFO - Fold 9 - Gamma auto - F1-score: 0.8801
+2025-05-25 12:04:44,154 - INFO - Fold 10 - Gamma auto - F1-score: 0.8789
+2025-05-25 12:04:44,156 - INFO - Starting statistical analysis for Gamma scores.
+2025-05-25 12:04:44,157 - INFO - Wilcoxon test statistic: 0.0000, p-value: 0.0020
+2025-05-25 12:04:44,157 - INFO - Significant difference found. Best gamma: scale with median accuracy: 0.8911
+2025-05-25 12:04:44,157 - INFO - Final gamma F1-scores per fold:
+2025-05-25 12:04:44,157 - INFO - scale: [0.8906372934697089, 0.8922345483359746, 0.884430176565008, 0.8857368006304176, 0.8909952606635071, 0.8887122416534181, 0.8916601714731099, 0.8915281076801267, 0.8913385826771654, 0.8911834789515488]
+2025-05-25 12:04:44,157 - INFO - auto: [0.8799380325329202, 0.8820754716981132, 0.8737092930897538, 0.8749028749028749, 0.8785046728971962, 0.8739232576350823, 0.8811728395061729, 0.8803752931978108, 0.8800623052959502, 0.8789308176100629]
+2025-05-25 12:04:44,157 - INFO - Best performing gamma: scale
+2025-05-25 12:04:48,712 - INFO - Testing for: distill_bert
+2025-05-25 12:04:48,712 - INFO - Evaluating gamma: scale
+2025-05-25 12:04:50,403 - INFO - Fold 1 - Gamma scale - F1-score: 0.8148
+2025-05-25 12:04:52,804 - INFO - Fold 2 - Gamma scale - F1-score: 0.8106
+2025-05-25 12:04:55,308 - INFO - Fold 3 - Gamma scale - F1-score: 0.8118
+2025-05-25 12:04:56,931 - INFO - Fold 4 - Gamma scale - F1-score: 0.8152
+2025-05-25 12:04:59,566 - INFO - Fold 5 - Gamma scale - F1-score: 0.8070
+2025-05-25 12:05:01,613 - INFO - Fold 6 - Gamma scale - F1-score: 0.8151
+2025-05-25 12:05:03,654 - INFO - Fold 7 - Gamma scale - F1-score: 0.8184
+2025-05-25 12:05:05,376 - INFO - Fold 8 - Gamma scale - F1-score: 0.8091
+2025-05-25 12:05:07,054 - INFO - Fold 9 - Gamma scale - F1-score: 0.8163
+2025-05-25 12:05:08,683 - INFO - Fold 10 - Gamma scale - F1-score: 0.8109
+2025-05-25 12:05:08,683 - INFO - Evaluating gamma: auto
+2025-05-25 12:05:10,503 - INFO - Fold 1 - Gamma auto - F1-score: 0.8072
+2025-05-25 12:05:12,392 - INFO - Fold 2 - Gamma auto - F1-score: 0.8032
+2025-05-25 12:05:14,267 - INFO - Fold 3 - Gamma auto - F1-score: 0.8035
+2025-05-25 12:05:15,909 - INFO - Fold 4 - Gamma auto - F1-score: 0.8058
+2025-05-25 12:05:18,078 - INFO - Fold 5 - Gamma auto - F1-score: 0.8009
+2025-05-25 12:05:20,701 - INFO - Fold 6 - Gamma auto - F1-score: 0.8081
+2025-05-25 12:05:23,110 - INFO - Fold 7 - Gamma auto - F1-score: 0.8110
+2025-05-25 12:05:24,695 - INFO - Fold 8 - Gamma auto - F1-score: 0.8000
+2025-05-25 12:05:26,293 - INFO - Fold 9 - Gamma auto - F1-score: 0.8046
+2025-05-25 12:05:27,870 - INFO - Fold 10 - Gamma auto - F1-score: 0.7988
+2025-05-25 12:05:27,871 - INFO - Starting statistical analysis for Gamma scores.
+2025-05-25 12:05:27,872 - INFO - Wilcoxon test statistic: 0.0000, p-value: 0.0020
+2025-05-25 12:05:27,872 - INFO - Significant difference found. Best gamma: scale with median accuracy: 0.8133
+2025-05-25 12:05:27,872 - INFO - Final gamma F1-scores per fold:
+2025-05-25 12:05:27,872 - INFO - scale: [0.8148148148148148, 0.810611643330877, 0.8118081180811808, 0.8152492668621701, 0.8070175438596491, 0.8150887573964497, 0.8183807439824945, 0.8090709583028529, 0.8163265306122449, 0.810930576070901]
+2025-05-25 12:05:27,872 - INFO - auto: [0.8071942446043165, 0.8031953522149601, 0.8034934497816594, 0.8057761732851986, 0.800862688713156, 0.8081395348837209, 0.810966810966811, 0.8, 0.8046142754145638, 0.7988338192419825]
+2025-05-25 12:05:27,872 - INFO - Best performing gamma: scale
+2025-05-25 12:05:27,872 - INFO - 
+
+
+ BEST GAMMAS: ['scale', 'scale']

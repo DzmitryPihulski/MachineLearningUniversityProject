@@ -1,0 +1,35 @@
+=== EMBEDDING VARIANCE ANALYSIS REPORT ===
+
+1. INTRA-GROUP VARIANCE ANALYSIS
+----------------------------------------
+
+XLM-ROBERTA:
+  Mean variance: 0.001576
+  Std variance:  0.004633
+  Min variance:  0.000116
+  Max variance:  0.097004
+
+LABSE:
+  Mean variance: 0.000817
+  Std variance:  0.000115
+  Min variance:  0.000407
+  Max variance:  0.001213
+
+DISTILL_BERT:
+  Mean variance: 0.024817
+  Std variance:  0.011495
+  Min variance:  0.001501
+  Max variance:  0.108825
+
+
+2. INTER-GROUP DISTANCE ANALYSIS
+----------------------------------------
+
+XLM-ROBERTA VS LABSE:
+  Distance: 18.931346
+
+XLM-ROBERTA VS DISTILL_BERT:
+  Distance: 20.166886
+
+LABSE VS DISTILL_BERT:
+  Distance: 6.069606

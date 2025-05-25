@@ -1,0 +1,180 @@
+2025-05-25 11:17:22,170 - INFO - Testing for: xlm-roberta
+2025-05-25 11:17:22,345 - INFO - Evaluating kernel: linear
+2025-05-25 11:17:28,961 - INFO - Fold 1 - Kernel linear - F1-score: 0.4621
+2025-05-25 11:17:35,610 - INFO - Fold 2 - Kernel linear - F1-score: 0.4571
+2025-05-25 11:17:41,985 - INFO - Fold 3 - Kernel linear - F1-score: 0.4475
+2025-05-25 11:17:48,879 - INFO - Fold 4 - Kernel linear - F1-score: 0.4640
+2025-05-25 11:17:55,861 - INFO - Fold 5 - Kernel linear - F1-score: 0.4627
+2025-05-25 11:18:02,305 - INFO - Fold 6 - Kernel linear - F1-score: 0.4463
+2025-05-25 11:18:11,247 - INFO - Fold 7 - Kernel linear - F1-score: 0.4582
+2025-05-25 11:18:19,368 - INFO - Fold 8 - Kernel linear - F1-score: 0.4485
+2025-05-25 11:18:26,604 - INFO - Fold 9 - Kernel linear - F1-score: 0.4695
+2025-05-25 11:18:34,173 - INFO - Fold 10 - Kernel linear - F1-score: 0.4534
+2025-05-25 11:18:34,173 - INFO - Evaluating kernel: poly
+2025-05-25 11:18:41,654 - INFO - Fold 1 - Kernel poly - F1-score: 0.4621
+2025-05-25 11:18:49,305 - INFO - Fold 2 - Kernel poly - F1-score: 0.4571
+2025-05-25 11:18:56,673 - INFO - Fold 3 - Kernel poly - F1-score: 0.4475
+2025-05-25 11:19:04,745 - INFO - Fold 4 - Kernel poly - F1-score: 0.4640
+2025-05-25 11:19:12,245 - INFO - Fold 5 - Kernel poly - F1-score: 0.4627
+2025-05-25 11:19:20,091 - INFO - Fold 6 - Kernel poly - F1-score: 0.4463
+2025-05-25 11:19:27,764 - INFO - Fold 7 - Kernel poly - F1-score: 0.4582
+2025-05-25 11:19:36,799 - INFO - Fold 8 - Kernel poly - F1-score: 0.4485
+2025-05-25 11:19:45,087 - INFO - Fold 9 - Kernel poly - F1-score: 0.4695
+2025-05-25 11:19:52,997 - INFO - Fold 10 - Kernel poly - F1-score: 0.4534
+2025-05-25 11:19:52,997 - INFO - Evaluating kernel: rbf
+2025-05-25 11:20:01,402 - INFO - Fold 1 - Kernel rbf - F1-score: 0.6249
+2025-05-25 11:20:09,985 - INFO - Fold 2 - Kernel rbf - F1-score: 0.6084
+2025-05-25 11:20:18,597 - INFO - Fold 3 - Kernel rbf - F1-score: 0.6084
+2025-05-25 11:20:27,174 - INFO - Fold 4 - Kernel rbf - F1-score: 0.6179
+2025-05-25 11:20:35,999 - INFO - Fold 5 - Kernel rbf - F1-score: 0.6144
+2025-05-25 11:20:43,998 - INFO - Fold 6 - Kernel rbf - F1-score: 0.6092
+2025-05-25 11:20:51,870 - INFO - Fold 7 - Kernel rbf - F1-score: 0.6064
+2025-05-25 11:21:00,125 - INFO - Fold 8 - Kernel rbf - F1-score: 0.6128
+2025-05-25 11:21:08,094 - INFO - Fold 9 - Kernel rbf - F1-score: 0.6175
+2025-05-25 11:21:16,066 - INFO - Fold 10 - Kernel rbf - F1-score: 0.6044
+2025-05-25 11:21:16,066 - INFO - Evaluating kernel: sigmoid
+2025-05-25 11:21:24,765 - INFO - Fold 1 - Kernel sigmoid - F1-score: 0.4621
+2025-05-25 11:21:33,182 - INFO - Fold 2 - Kernel sigmoid - F1-score: 0.4571
+2025-05-25 11:21:41,956 - INFO - Fold 3 - Kernel sigmoid - F1-score: 0.4475
+2025-05-25 11:21:50,278 - INFO - Fold 4 - Kernel sigmoid - F1-score: 0.4643
+2025-05-25 11:21:59,039 - INFO - Fold 5 - Kernel sigmoid - F1-score: 0.4627
+2025-05-25 11:22:09,213 - INFO - Fold 6 - Kernel sigmoid - F1-score: 0.4463
+2025-05-25 11:22:17,586 - INFO - Fold 7 - Kernel sigmoid - F1-score: 0.4582
+2025-05-25 11:22:25,775 - INFO - Fold 8 - Kernel sigmoid - F1-score: 0.4489
+2025-05-25 11:22:34,004 - INFO - Fold 9 - Kernel sigmoid - F1-score: 0.4692
+2025-05-25 11:22:42,971 - INFO - Fold 10 - Kernel sigmoid - F1-score: 0.4534
+2025-05-25 11:22:42,973 - INFO - Starting Kruskal-Wallis test for all kernel scores.
+2025-05-25 11:22:42,974 - INFO - Kruskal-Wallis H-statistic: 22.0184, p-value: 0.0001
+2025-05-25 11:22:42,974 - INFO - Significant difference found, performing post-hoc Dunn test.
+2025-05-25 11:22:42,977 - INFO - Dunn's test results (Bonferroni corrected):
+           linear      poly       rbf   sigmoid
+linear   1.000000  1.000000  0.000736  1.000000
+poly     1.000000  1.000000  0.000736  1.000000
+rbf      0.000736  0.000736  1.000000  0.000827
+sigmoid  1.000000  1.000000  0.000827  1.000000
+2025-05-25 11:22:42,980 - INFO - Selected best kernel: rbf with median accuracy: 0.6110
+2025-05-25 11:22:42,981 - INFO - Final kernel F1-scores per fold:
+2025-05-25 11:22:42,981 - INFO - linear: [0.46211552888222057, 0.45709946848899013, 0.4474885844748858, 0.46396396396396394, 0.46269781461944237, 0.44631901840490795, 0.4581763376036172, 0.448512585812357, 0.46952595936794583, 0.4533737680060652]
+2025-05-25 11:22:42,981 - INFO - poly: [0.46211552888222057, 0.45709946848899013, 0.4474885844748858, 0.46396396396396394, 0.46269781461944237, 0.44631901840490795, 0.4581763376036172, 0.448512585812357, 0.46952595936794583, 0.4533737680060652]
+2025-05-25 11:22:42,981 - INFO - rbf: [0.6248715313463515, 0.608421052631579, 0.608421052631579, 0.6179196704428425, 0.6144329896907217, 0.6092436974789915, 0.6064382139148494, 0.6128364389233955, 0.6174636174636174, 0.6044071353620147]
+2025-05-25 11:22:42,981 - INFO - sigmoid: [0.46211552888222057, 0.45709946848899013, 0.4474885844748858, 0.46431254695717505, 0.46269781461944237, 0.44631901840490795, 0.4581763376036172, 0.4488549618320611, 0.4691729323308271, 0.4533737680060652]
+2025-05-25 11:22:42,981 - INFO - Best performing kernel: rbf
+2025-05-25 11:22:47,947 - INFO - Testing for: labse
+2025-05-25 11:22:47,952 - INFO - Evaluating kernel: linear
+2025-05-25 11:22:56,031 - INFO - Fold 1 - Kernel linear - F1-score: 0.6617
+2025-05-25 11:23:04,097 - INFO - Fold 2 - Kernel linear - F1-score: 0.6667
+2025-05-25 11:23:11,386 - INFO - Fold 3 - Kernel linear - F1-score: 0.6467
+2025-05-25 11:23:18,718 - INFO - Fold 4 - Kernel linear - F1-score: 0.6522
+2025-05-25 11:23:25,817 - INFO - Fold 5 - Kernel linear - F1-score: 0.6581
+2025-05-25 11:23:33,302 - INFO - Fold 6 - Kernel linear - F1-score: 0.6580
+2025-05-25 11:23:40,279 - INFO - Fold 7 - Kernel linear - F1-score: 0.6730
+2025-05-25 11:23:47,337 - INFO - Fold 8 - Kernel linear - F1-score: 0.6478
+2025-05-25 11:23:54,687 - INFO - Fold 9 - Kernel linear - F1-score: 0.6638
+2025-05-25 11:24:01,838 - INFO - Fold 10 - Kernel linear - F1-score: 0.6432
+2025-05-25 11:24:01,838 - INFO - Evaluating kernel: poly
+2025-05-25 11:24:09,033 - INFO - Fold 1 - Kernel poly - F1-score: 0.6523
+2025-05-25 11:24:16,084 - INFO - Fold 2 - Kernel poly - F1-score: 0.6543
+2025-05-25 11:24:23,569 - INFO - Fold 3 - Kernel poly - F1-score: 0.6399
+2025-05-25 11:24:30,749 - INFO - Fold 4 - Kernel poly - F1-score: 0.6485
+2025-05-25 11:24:38,490 - INFO - Fold 5 - Kernel poly - F1-score: 0.6530
+2025-05-25 11:24:45,778 - INFO - Fold 6 - Kernel poly - F1-score: 0.6594
+2025-05-25 11:24:52,859 - INFO - Fold 7 - Kernel poly - F1-score: 0.6681
+2025-05-25 11:25:00,435 - INFO - Fold 8 - Kernel poly - F1-score: 0.6471
+2025-05-25 11:25:07,610 - INFO - Fold 9 - Kernel poly - F1-score: 0.6558
+2025-05-25 11:25:14,604 - INFO - Fold 10 - Kernel poly - F1-score: 0.6349
+2025-05-25 11:25:14,604 - INFO - Evaluating kernel: rbf
+2025-05-25 11:25:22,217 - INFO - Fold 1 - Kernel rbf - F1-score: 0.6581
+2025-05-25 11:25:30,400 - INFO - Fold 2 - Kernel rbf - F1-score: 0.6616
+2025-05-25 11:25:38,059 - INFO - Fold 3 - Kernel rbf - F1-score: 0.6459
+2025-05-25 11:25:45,844 - INFO - Fold 4 - Kernel rbf - F1-score: 0.6558
+2025-05-25 11:25:53,448 - INFO - Fold 5 - Kernel rbf - F1-score: 0.6544
+2025-05-25 11:26:01,311 - INFO - Fold 6 - Kernel rbf - F1-score: 0.6580
+2025-05-25 11:26:08,850 - INFO - Fold 7 - Kernel rbf - F1-score: 0.6681
+2025-05-25 11:26:16,510 - INFO - Fold 8 - Kernel rbf - F1-score: 0.6529
+2025-05-25 11:26:24,548 - INFO - Fold 9 - Kernel rbf - F1-score: 0.6587
+2025-05-25 11:26:33,223 - INFO - Fold 10 - Kernel rbf - F1-score: 0.6424
+2025-05-25 11:26:33,223 - INFO - Evaluating kernel: sigmoid
+2025-05-25 11:26:42,112 - INFO - Fold 1 - Kernel sigmoid - F1-score: 0.6617
+2025-05-25 11:26:50,442 - INFO - Fold 2 - Kernel sigmoid - F1-score: 0.6681
+2025-05-25 11:26:57,761 - INFO - Fold 3 - Kernel sigmoid - F1-score: 0.6482
+2025-05-25 11:27:05,695 - INFO - Fold 4 - Kernel sigmoid - F1-score: 0.6566
+2025-05-25 11:27:13,346 - INFO - Fold 5 - Kernel sigmoid - F1-score: 0.6552
+2025-05-25 11:27:20,683 - INFO - Fold 6 - Kernel sigmoid - F1-score: 0.6594
+2025-05-25 11:27:27,930 - INFO - Fold 7 - Kernel sigmoid - F1-score: 0.6730
+2025-05-25 11:27:35,407 - INFO - Fold 8 - Kernel sigmoid - F1-score: 0.6544
+2025-05-25 11:27:43,150 - INFO - Fold 9 - Kernel sigmoid - F1-score: 0.6616
+2025-05-25 11:27:50,397 - INFO - Fold 10 - Kernel sigmoid - F1-score: 0.6447
+2025-05-25 11:27:50,398 - INFO - Starting Kruskal-Wallis test for all kernel scores.
+2025-05-25 11:27:50,399 - INFO - Kruskal-Wallis H-statistic: 3.4047, p-value: 0.3333
+2025-05-25 11:27:50,399 - INFO - No significant difference found between kernels.
+2025-05-25 11:27:50,399 - INFO - Final kernel F1-scores per fold:
+2025-05-25 11:27:50,399 - INFO - linear: [0.6616702355460385, 0.6666666666666666, 0.646733111849391, 0.6522210184182016, 0.6580645161290323, 0.6579520697167756, 0.6730158730158731, 0.6478260869565218, 0.6637931034482759, 0.6431718061674009]
+2025-05-25 11:27:50,399 - INFO - poly: [0.652267818574514, 0.6543075245365322, 0.6399108138238573, 0.6485310119695321, 0.652972972972973, 0.6594124047878128, 0.6680851063829787, 0.6470588235294118, 0.6558089033659066, 0.634850166481687]
+2025-05-25 11:27:50,399 - INFO - rbf: [0.6580645161290323, 0.6616052060737527, 0.6459489456159823, 0.6558441558441559, 0.6544276457883369, 0.6579520697167756, 0.6680851063829787, 0.6529284164859002, 0.6587215601300108, 0.6423841059602649]
+2025-05-25 11:27:50,399 - INFO - sigmoid: [0.6616702355460385, 0.6681034482758621, 0.6482300884955752, 0.6565874730021598, 0.6551724137931034, 0.6594124047878128, 0.6730158730158731, 0.6544276457883369, 0.6616379310344828, 0.6446644664466447]
+2025-05-25 11:27:50,399 - INFO - No single best kernel found.
+2025-05-25 11:27:54,939 - INFO - Testing for: distill_bert
+2025-05-25 11:27:54,944 - INFO - Evaluating kernel: linear
+2025-05-25 11:28:01,668 - INFO - Fold 1 - Kernel linear - F1-score: 0.5369
+2025-05-25 11:28:09,645 - INFO - Fold 2 - Kernel linear - F1-score: 0.5614
+2025-05-25 11:28:16,747 - INFO - Fold 3 - Kernel linear - F1-score: 0.5420
+2025-05-25 11:28:23,808 - INFO - Fold 4 - Kernel linear - F1-score: 0.5427
+2025-05-25 11:28:31,045 - INFO - Fold 5 - Kernel linear - F1-score: 0.5406
+2025-05-25 11:28:37,881 - INFO - Fold 6 - Kernel linear - F1-score: 0.5411
+2025-05-25 11:28:45,218 - INFO - Fold 7 - Kernel linear - F1-score: 0.5429
+2025-05-25 11:28:52,237 - INFO - Fold 8 - Kernel linear - F1-score: 0.5473
+2025-05-25 11:28:59,112 - INFO - Fold 9 - Kernel linear - F1-score: 0.5524
+2025-05-25 11:29:06,169 - INFO - Fold 10 - Kernel linear - F1-score: 0.5592
+2025-05-25 11:29:06,169 - INFO - Evaluating kernel: poly
+2025-05-25 11:29:13,191 - INFO - Fold 1 - Kernel poly - F1-score: 0.5393
+2025-05-25 11:29:20,114 - INFO - Fold 2 - Kernel poly - F1-score: 0.5636
+2025-05-25 11:29:28,557 - INFO - Fold 3 - Kernel poly - F1-score: 0.5383
+2025-05-25 11:29:36,250 - INFO - Fold 4 - Kernel poly - F1-score: 0.5404
+2025-05-25 11:29:44,156 - INFO - Fold 5 - Kernel poly - F1-score: 0.5448
+2025-05-25 11:29:50,317 - INFO - Fold 6 - Kernel poly - F1-score: 0.5444
+2025-05-25 11:29:56,533 - INFO - Fold 7 - Kernel poly - F1-score: 0.5443
+2025-05-25 11:30:05,146 - INFO - Fold 8 - Kernel poly - F1-score: 0.5514
+2025-05-25 11:30:12,556 - INFO - Fold 9 - Kernel poly - F1-score: 0.5565
+2025-05-25 11:30:19,939 - INFO - Fold 10 - Kernel poly - F1-score: 0.5565
+2025-05-25 11:30:19,939 - INFO - Evaluating kernel: rbf
+2025-05-25 11:30:27,947 - INFO - Fold 1 - Kernel rbf - F1-score: 0.6558
+2025-05-25 11:30:34,961 - INFO - Fold 2 - Kernel rbf - F1-score: 0.6296
+2025-05-25 11:30:41,576 - INFO - Fold 3 - Kernel rbf - F1-score: 0.6435
+2025-05-25 11:30:48,520 - INFO - Fold 4 - Kernel rbf - F1-score: 0.6279
+2025-05-25 11:30:55,079 - INFO - Fold 5 - Kernel rbf - F1-score: 0.6335
+2025-05-25 11:31:01,952 - INFO - Fold 6 - Kernel rbf - F1-score: 0.6535
+2025-05-25 11:31:08,100 - INFO - Fold 7 - Kernel rbf - F1-score: 0.6544
+2025-05-25 11:31:14,952 - INFO - Fold 8 - Kernel rbf - F1-score: 0.6255
+2025-05-25 11:31:21,843 - INFO - Fold 9 - Kernel rbf - F1-score: 0.6468
+2025-05-25 11:31:28,729 - INFO - Fold 10 - Kernel rbf - F1-score: 0.6366
+2025-05-25 11:31:28,729 - INFO - Evaluating kernel: sigmoid
+2025-05-25 11:31:35,354 - INFO - Fold 1 - Kernel sigmoid - F1-score: 0.5340
+2025-05-25 11:31:41,893 - INFO - Fold 2 - Kernel sigmoid - F1-score: 0.5563
+2025-05-25 11:31:48,547 - INFO - Fold 3 - Kernel sigmoid - F1-score: 0.5387
+2025-05-25 11:31:55,051 - INFO - Fold 4 - Kernel sigmoid - F1-score: 0.5366
+2025-05-25 11:32:01,656 - INFO - Fold 5 - Kernel sigmoid - F1-score: 0.5345
+2025-05-25 11:32:08,335 - INFO - Fold 6 - Kernel sigmoid - F1-score: 0.5373
+2025-05-25 11:32:14,887 - INFO - Fold 7 - Kernel sigmoid - F1-score: 0.5364
+2025-05-25 11:32:21,004 - INFO - Fold 8 - Kernel sigmoid - F1-score: 0.5449
+2025-05-25 11:32:27,067 - INFO - Fold 9 - Kernel sigmoid - F1-score: 0.5489
+2025-05-25 11:32:33,104 - INFO - Fold 10 - Kernel sigmoid - F1-score: 0.5522
+2025-05-25 11:32:33,106 - INFO - Starting Kruskal-Wallis test for all kernel scores.
+2025-05-25 11:32:33,107 - INFO - Kruskal-Wallis H-statistic: 24.0271, p-value: 0.0000
+2025-05-25 11:32:33,107 - INFO - Significant difference found, performing post-hoc Dunn test.
+2025-05-25 11:32:33,109 - INFO - Dunn's test results (Bonferroni corrected):
+           linear      poly       rbf  sigmoid
+linear   1.000000  1.000000  0.002593  1.00000
+poly     1.000000  1.000000  0.005614  1.00000
+rbf      0.002593  0.005614  1.000000  0.00002
+sigmoid  1.000000  1.000000  0.000020  1.00000
+2025-05-25 11:32:33,112 - INFO - Selected best kernel: rbf with median accuracy: 0.6401
+2025-05-25 11:32:33,112 - INFO - Final kernel F1-scores per fold:
+2025-05-25 11:32:33,112 - INFO - linear: [0.5368620037807184, 0.5614366729678639, 0.5419847328244275, 0.5426944971537002, 0.5406427221172023, 0.5411089866156787, 0.5428840716305372, 0.5473289597000938, 0.5523809523809524, 0.5592417061611374]
+2025-05-25 11:32:33,112 - INFO - poly: [0.5392620624408704, 0.5636192271442035, 0.5383141762452107, 0.5404376784015223, 0.5447690857681433, 0.5444126074498568, 0.544256120527307, 0.5514018691588785, 0.5565052231718899, 0.5565052231718899]
+2025-05-25 11:32:33,112 - INFO - rbf: [0.6557711950970377, 0.6295907660020986, 0.6435331230283912, 0.6278586278586279, 0.6335403726708074, 0.6535269709543569, 0.65439672801636, 0.6255230125523012, 0.646755921730175, 0.6366492146596858]
+2025-05-25 11:32:33,112 - INFO - sigmoid: [0.5339622641509434, 0.5562913907284768, 0.5386819484240688, 0.5366317792578497, 0.534466477809254, 0.5372848948374761, 0.5363550519357885, 0.5449438202247191, 0.5489078822412156, 0.5521821631878557]
+2025-05-25 11:32:33,112 - INFO - Best performing kernel: rbf
+2025-05-25 11:32:33,112 - INFO - 
+
+
+ BEST KERNELS: ['rbf', 'rbf']

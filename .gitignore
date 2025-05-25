@@ -1,0 +1,10 @@
+.venv
+__pycache__
+
+data/extracted_test_results.json
+data/extracted_text_results.json
+data/politicians_by_country.json
+data/politicians_search_results.json
+data/test.jsonl
+data/train.jsonl
+data/val.jsonl
