@@ -73,6 +73,7 @@ def main():
     # Set up logging
     logging.basicConfig(
         filename="data/logging/01_analysis_of_threshold.log",
+        filemode="w",
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
     )

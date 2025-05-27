@@ -1,8 +1,6 @@
 import asyncio
 import json
 import random
-import re
-import time
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 
@@ -151,10 +149,8 @@ async def main(input_file: str, output_file: str):
 
 # Run the script
 if __name__ == "__main__":
-    INPUT_FILE = (
-        "politicians_search_results.json"  # Change this to your input file path
-    )
-    OUTPUT_FILE = "extracted_text_results.json"  # Output file path
+    INPUT_FILE = "data/datasets/politicians_search_results.json"  # Change this to your input file path
+    OUTPUT_FILE = "data/datasets/extracted_test_results.json"  # Output file path
 
     # Run the async main function
     asyncio.run(main(INPUT_FILE, OUTPUT_FILE))
