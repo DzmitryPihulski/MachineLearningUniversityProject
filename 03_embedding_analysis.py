@@ -30,7 +30,7 @@ class EmbeddingAnalyzer:
     def compute_intra_group_variances(self):
         """
         Compute variance within embeddings for each model.
-        For each model, compute variance across dimensions for each embedding,
+        For each model, compute variance across dimensions (768) for each embedding,
         then get statistics across all embeddings.
         """
         results = {}
@@ -76,6 +76,11 @@ class EmbeddingAnalyzer:
             ("xlm-roberta", "distill_bert"),
             ("labse", "distill_bert"),
         ]
+        model_name_mapping = {
+            "xlm-roberta": "XLM-RoBERTa",
+            "labse": "LaBSE",
+            "distill_bert": "Distilled BERT",
+        }
 
         for model1, model2 in model_pairs:
             if model1 in model_averages and model2 in model_averages:
@@ -90,7 +95,9 @@ class EmbeddingAnalyzer:
                 # Compute euclidean distance
                 distance = np.linalg.norm(avg1_trimmed - avg2_trimmed)
 
-                pair_key = f"{model1} vs {model2}"
+                pair_key = (
+                    f"{model_name_mapping[model1]} vs {model_name_mapping[model2]}"
+                )
                 results[pair_key] = {
                     "distance": distance,
                     "mean_distance": distance,  # Keep for compatibility with report format
@@ -103,7 +110,7 @@ class EmbeddingAnalyzer:
         return results
 
     def generate_report(
-        self, output_file="data/embedding_analysis/embedding_analysis_report.log"
+        self, output_file="data/logging/03_embedding_analysis_report.log"
     ):
         """
         Generate the complete analysis report and save to file.
@@ -159,7 +166,8 @@ class EmbeddingAnalyzer:
         return report_lines
 
     def create_inter_group_distance_plot(
-        self, output_path="data/embedding_analysis/inter_group_distances.png"
+        self,
+        output_path="data/plots/embedding_analysis_plots/inter_group_distances.pdf",
     ):
         """Create bar plot showing inter-group distances between model pairs."""
         if not self.inter_group_results:
@@ -173,7 +181,7 @@ class EmbeddingAnalyzer:
 
         plt.figure(figsize=(10, 6))
         bars = plt.bar(
-            clean_pairs, distances, color=["#3498db", "#e74c3c", "#2ecc71"], alpha=0.8
+            clean_pairs, distances, color=["#E74C3C", "#3498DB", "#2ECC71"], alpha=0.8
         )
 
         plt.title(
@@ -196,23 +204,31 @@ class EmbeddingAnalyzer:
 
         plt.tight_layout()
         plt.grid(axis="y", alpha=0.3)
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, format="pdf", dpi=300, bbox_inches="tight")
         plt.close()
         print(f"Inter-group distance plot saved to {output_path}")
 
     def create_intra_group_variance_plot(
-        self, output_path="data/embedding_analysis/intra_group_variances.png"
+        self,
+        output_path="data/plots/embedding_analysis_plots/intra_group_variances.pdf",
     ):
         """Create bar plot showing intra-group variances for each model."""
         if not self.intra_group_results:
             self.compute_intra_group_variances()
 
-        models = list(self.intra_group_results.keys())
+        models = ["XLM-RoBERTa", "LaBSE", "Distilled BERT"]
+        model_reverse_mapping = {
+            "XLM-RoBERTa": "xlm-roberta",
+            "LaBSE": "labse",
+            "Distilled BERT": "distill_bert",
+        }
         mean_variances = [
-            self.intra_group_results[model]["mean_variance"] for model in models
+            self.intra_group_results[model_reverse_mapping[model]]["mean_variance"]
+            for model in models
         ]
         std_variances = [
-            self.intra_group_results[model]["std_variance"] for model in models
+            self.intra_group_results[model_reverse_mapping[model]]["std_variance"]
+            for model in models
         ]
 
         plt.figure(figsize=(10, 6))
@@ -221,7 +237,7 @@ class EmbeddingAnalyzer:
             mean_variances,
             yerr=std_variances,
             capsize=5,
-            color=["#9b59b6", "#f39c12", "#1abc9c"],
+            color=["#E74C3C", "#3498DB", "#2ECC71"],
             alpha=0.8,
         )
 
@@ -249,13 +265,13 @@ class EmbeddingAnalyzer:
 
         plt.tight_layout()
         plt.grid(axis="y", alpha=0.3)
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, format="pdf", dpi=300, bbox_inches="tight")
         plt.close()
         print(f"Intra-group variance plot saved to {output_path}")
 
     def run_complete_analysis(
         self,
-        report_file="data/embedding_analysis/embedding_analysis_report.log",
+        report_file="data/logging/03_embedding_analysis_report.log",
         plot_dir="plots",
     ):
         """

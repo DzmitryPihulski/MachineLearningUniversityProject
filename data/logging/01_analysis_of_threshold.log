@@ -1,0 +1,1408 @@
+2025-05-26 23:07:52,168 - INFO - Loading embeddings for model: xlm-roberta
+2025-05-26 23:07:57,456 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:07:57,456 - INFO - Evaluating nu: 0.05
+2025-05-26 23:08:06,752 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.5411 - Number of inter: 100970 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:08:15,647 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.5386 - Number of inter: 86330 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:08:24,707 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.5143 - Number of inter: 115441 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:08:34,322 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.5269 - Number of inter: 109693 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:08:43,135 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.5125 - Number of inter: 106564 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:08:52,690 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.5524 - Number of inter: 100267 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:09:01,780 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.5276 - Number of inter: 101977 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:09:10,288 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.5229 - Number of inter: 75003 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:09:21,272 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.5396 - Number of inter: 103180 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:09:31,902 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.5244 - Number of inter: 99875 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:09:31,906 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:09:31,906 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:09:31,906 - INFO - Evaluating nu: 0.1
+2025-05-26 23:09:45,008 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.5417 - Number of inter: 107153 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:09:56,312 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.5364 - Number of inter: 51165 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:10:09,222 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.4916 - Number of inter: 83522 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:10:19,139 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.4842 - Number of inter: 62597 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:10:26,847 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.5615 - Number of inter: 63781 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:10:36,182 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.5050 - Number of inter: 78451 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:10:45,287 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.5411 - Number of inter: 56795 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:10:54,704 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.5519 - Number of inter: 45351 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:11:05,859 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.5333 - Number of inter: 105527 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:11:14,753 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.4943 - Number of inter: 51725 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:11:14,754 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:11:14,754 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:11:14,754 - INFO - Evaluating nu: 0.2
+2025-05-26 23:11:24,914 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.5331 - Number of inter: 110270 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:11:34,393 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.5339 - Number of inter: 64818 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:11:44,331 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.5190 - Number of inter: 90966 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:11:53,493 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.4863 - Number of inter: 57548 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:12:03,740 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.5373 - Number of inter: 58473 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:12:19,271 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.4801 - Number of inter: 80842 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:12:33,284 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.4823 - Number of inter: 66831 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:13:02,938 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.4912 - Number of inter: 95633 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:13:17,224 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.4548 - Number of inter: 71953 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:13:28,185 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.4824 - Number of inter: 83433 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:13:28,188 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:13:28,188 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:13:28,188 - INFO - Evaluating nu: 0.3
+2025-05-26 23:13:40,625 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.4618 - Number of inter: 88989 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:13:52,594 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.4841 - Number of inter: 94675 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:14:03,998 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.4748 - Number of inter: 85652 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:14:14,548 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.4677 - Number of inter: 62724 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:14:25,384 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5549 - Number of inter: 68336 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:14:35,871 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5501 - Number of inter: 58413 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:14:46,363 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.4821 - Number of inter: 57841 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:14:57,581 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.4680 - Number of inter: 83340 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:15:08,643 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.4435 - Number of inter: 86060 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:15:20,309 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.4390 - Number of inter: 103357 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:15:20,311 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:15:20,311 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:15:20,311 - INFO - Evaluating nu: 0.4
+2025-05-26 23:15:31,531 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.5441 - Number of inter: 52940 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:15:43,259 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.4427 - Number of inter: 91285 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:15:55,170 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.4365 - Number of inter: 74342 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:16:07,299 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.4547 - Number of inter: 100934 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:16:18,709 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.4447 - Number of inter: 63204 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:16:28,864 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5094 - Number of inter: 50260 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:16:40,249 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.5124 - Number of inter: 70592 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:16:52,013 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.4602 - Number of inter: 73385 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:17:07,763 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.4394 - Number of inter: 86581 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:17:20,280 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.4671 - Number of inter: 69400 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:17:20,284 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:17:20,285 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:17:20,285 - INFO - Evaluating nu: 0.5
+2025-05-26 23:17:31,407 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4333 - Number of inter: 66904 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:17:43,064 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4331 - Number of inter: 87840 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:17:54,755 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4772 - Number of inter: 86283 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:18:07,021 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4146 - Number of inter: 96222 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:18:18,450 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4586 - Number of inter: 53965 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:18:28,933 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4342 - Number of inter: 47798 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:18:42,361 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4108 - Number of inter: 80761 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:18:53,055 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4896 - Number of inter: 63273 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:19:05,391 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4424 - Number of inter: 89215 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:19:18,168 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4667 - Number of inter: 51190 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:19:18,171 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:19:18,171 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:19:18,171 - INFO - Evaluating nu: 0.6
+2025-05-26 23:19:30,030 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4935 - Number of inter: 77138 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:19:40,888 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4213 - Number of inter: 43488 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:19:56,595 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4516 - Number of inter: 71058 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:20:09,456 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4675 - Number of inter: 58962 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:20:20,937 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.5077 - Number of inter: 67317 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:20:32,621 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4313 - Number of inter: 70507 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:20:45,107 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.5130 - Number of inter: 84335 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:20:58,278 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4976 - Number of inter: 85495 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:21:10,660 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4170 - Number of inter: 50547 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:21:22,752 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.5200 - Number of inter: 95523 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:21:22,755 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:21:22,755 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:21:22,755 - INFO - Evaluating nu: 0.7
+2025-05-26 23:21:35,291 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.3937 - Number of inter: 105999 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:21:47,777 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.4115 - Number of inter: 92582 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:22:00,964 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.4209 - Number of inter: 89689 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:22:14,367 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.4291 - Number of inter: 104562 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:22:29,339 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.4080 - Number of inter: 94904 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:22:42,399 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.4137 - Number of inter: 100902 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:22:55,685 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.4227 - Number of inter: 97988 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:23:08,920 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.4281 - Number of inter: 94124 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:23:22,714 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.4066 - Number of inter: 102891 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:23:34,955 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.4501 - Number of inter: 96857 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:23:34,958 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:23:34,958 - INFO - Testing model: xlm-roberta, kernel: linear
+2025-05-26 23:23:34,958 - INFO - Evaluating nu: 0.8
+2025-05-26 23:23:47,624 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.4154 - Number of inter: 85617 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:24:04,640 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.3668 - Number of inter: 91224 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:24:17,882 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.3808 - Number of inter: 85827 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:24:30,466 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.4042 - Number of inter: 97045 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:24:42,987 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.4003 - Number of inter: 98921 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:24:55,914 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.3933 - Number of inter: 96371 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:08,363 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.3987 - Number of inter: 80822 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:24,935 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.3677 - Number of inter: 85752 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:38,960 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.4085 - Number of inter: 92954 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:52,827 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.4010 - Number of inter: 85170 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:52,831 - INFO - Completed xlm-roberta-linear: 10 nus tested, each with 10 values
+2025-05-26 23:25:52,832 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:25:52,832 - INFO - Evaluating nu: 0.05
+2025-05-26 23:25:54,161 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.8192 - Number of inter: 324 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:55,422 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.8170 - Number of inter: 326 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:56,708 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.8190 - Number of inter: 332 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:57,990 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.8163 - Number of inter: 329 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:25:59,614 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.8313 - Number of inter: 328 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:01,124 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.8267 - Number of inter: 332 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:02,610 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.8247 - Number of inter: 325 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:04,120 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.8221 - Number of inter: 325 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:05,656 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.8142 - Number of inter: 324 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:07,151 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.8202 - Number of inter: 316 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:07,153 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:26:07,153 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:26:07,153 - INFO - Evaluating nu: 0.1
+2025-05-26 23:26:09,499 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.8458 - Number of inter: 499 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:11,864 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.8454 - Number of inter: 509 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:14,232 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.8473 - Number of inter: 516 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:16,815 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.8472 - Number of inter: 498 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:19,268 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.8537 - Number of inter: 496 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:21,573 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.8516 - Number of inter: 496 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:23,906 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.8489 - Number of inter: 500 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:26,311 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.8484 - Number of inter: 501 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:28,677 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.8419 - Number of inter: 491 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:31,007 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.8473 - Number of inter: 501 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:31,009 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:26:31,009 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:26:31,009 - INFO - Evaluating nu: 0.2
+2025-05-26 23:26:35,133 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.8320 - Number of inter: 820 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:39,192 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.8304 - Number of inter: 870 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:43,284 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.8422 - Number of inter: 872 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:47,681 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.8387 - Number of inter: 856 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:51,931 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.8359 - Number of inter: 821 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:55,870 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.8394 - Number of inter: 848 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:26:59,842 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.8382 - Number of inter: 871 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:03,902 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.8318 - Number of inter: 825 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:08,198 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.8343 - Number of inter: 857 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:12,594 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.8336 - Number of inter: 827 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:12,605 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:27:12,605 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:27:12,605 - INFO - Evaluating nu: 0.3
+2025-05-26 23:27:19,171 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.7938 - Number of inter: 1071 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:25,583 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.7879 - Number of inter: 1048 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:31,273 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.7927 - Number of inter: 1061 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:37,038 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.7884 - Number of inter: 1068 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:42,498 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.7931 - Number of inter: 1062 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:48,283 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.7909 - Number of inter: 1090 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:27:54,737 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.7915 - Number of inter: 1087 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:01,793 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.7943 - Number of inter: 1074 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:08,768 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.7919 - Number of inter: 1072 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:15,906 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.7927 - Number of inter: 1060 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:15,943 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:28:15,943 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:28:15,943 - INFO - Evaluating nu: 0.4
+2025-05-26 23:28:25,819 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.7359 - Number of inter: 1227 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:35,372 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.7269 - Number of inter: 1202 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:44,905 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.7330 - Number of inter: 1188 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:52,449 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.7357 - Number of inter: 1255 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:28:59,943 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.7324 - Number of inter: 1247 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:07,897 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.7329 - Number of inter: 1215 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:16,593 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.7314 - Number of inter: 1202 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:24,320 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.7271 - Number of inter: 1201 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:32,994 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.7353 - Number of inter: 1236 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:42,203 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.7299 - Number of inter: 1265 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:42,205 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:29:42,205 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:29:42,205 - INFO - Evaluating nu: 0.5
+2025-05-26 23:29:49,844 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.6706 - Number of inter: 1281 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:29:58,610 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.6528 - Number of inter: 1250 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:08,521 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.6649 - Number of inter: 1258 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:16,453 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.6606 - Number of inter: 1256 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:23,715 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.6538 - Number of inter: 1279 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:31,315 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.6631 - Number of inter: 1240 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:38,472 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.6613 - Number of inter: 1237 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:46,135 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.6599 - Number of inter: 1248 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:30:53,932 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.6584 - Number of inter: 1241 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:01,060 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.6580 - Number of inter: 1255 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:01,062 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:31:01,062 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:31:01,062 - INFO - Evaluating nu: 0.6
+2025-05-26 23:31:09,198 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.5861 - Number of inter: 1201 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:17,950 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.5778 - Number of inter: 1201 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:25,967 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.5782 - Number of inter: 1224 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:34,464 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.5727 - Number of inter: 1230 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:42,247 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.5752 - Number of inter: 1212 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:50,118 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.5790 - Number of inter: 1212 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:31:58,516 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.5754 - Number of inter: 1254 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:06,240 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.5780 - Number of inter: 1227 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:14,686 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.5731 - Number of inter: 1236 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:23,071 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.5698 - Number of inter: 1247 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:23,083 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:32:23,083 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:32:23,083 - INFO - Evaluating nu: 0.7
+2025-05-26 23:32:31,629 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.4769 - Number of inter: 1055 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:41,080 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.4719 - Number of inter: 1063 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:49,861 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.4751 - Number of inter: 1071 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:32:59,171 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.4580 - Number of inter: 1085 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:07,734 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.4628 - Number of inter: 1071 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:16,474 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.4699 - Number of inter: 1062 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:25,505 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.4689 - Number of inter: 1038 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:34,112 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.4724 - Number of inter: 1050 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:43,399 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.4629 - Number of inter: 1082 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:51,919 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.4636 - Number of inter: 1065 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:33:51,921 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:33:51,922 - INFO - Testing model: xlm-roberta, kernel: rbf
+2025-05-26 23:33:51,922 - INFO - Evaluating nu: 0.8
+2025-05-26 23:34:01,058 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.3292 - Number of inter: 831 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:34:11,190 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.3236 - Number of inter: 835 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:34:20,447 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.3315 - Number of inter: 821 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:34:30,268 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.3135 - Number of inter: 822 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:34:39,522 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.3214 - Number of inter: 823 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:34:48,936 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.3185 - Number of inter: 809 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:34:59,006 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.3347 - Number of inter: 818 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:08,407 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.3226 - Number of inter: 825 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:18,629 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.3217 - Number of inter: 817 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:29,111 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.3192 - Number of inter: 813 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:29,113 - INFO - Completed xlm-roberta-rbf: 10 nus tested, each with 10 values
+2025-05-26 23:35:29,113 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:35:29,113 - INFO - Evaluating nu: 0.05
+2025-05-26 23:35:30,191 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.6508 - Number of inter: 732 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:31,355 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.6401 - Number of inter: 703 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:32,486 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.6506 - Number of inter: 723 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:33,605 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.6478 - Number of inter: 703 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:34,745 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.6545 - Number of inter: 731 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:35,887 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.6479 - Number of inter: 716 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:37,038 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.6519 - Number of inter: 728 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:38,192 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.6530 - Number of inter: 714 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:39,315 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.6467 - Number of inter: 708 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:40,439 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.6460 - Number of inter: 694 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:40,440 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:35:40,440 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:35:40,440 - INFO - Evaluating nu: 0.1
+2025-05-26 23:35:42,046 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.6413 - Number of inter: 859 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:43,758 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.6311 - Number of inter: 857 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:45,455 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.6391 - Number of inter: 846 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:47,179 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.6424 - Number of inter: 854 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:48,880 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.6415 - Number of inter: 844 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:50,574 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.6380 - Number of inter: 834 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:52,255 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.6415 - Number of inter: 835 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:53,977 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.6418 - Number of inter: 850 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:55,683 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.6373 - Number of inter: 837 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:57,348 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.6362 - Number of inter: 850 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:35:57,349 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:35:57,349 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:35:57,350 - INFO - Evaluating nu: 0.2
+2025-05-26 23:35:59,988 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.6121 - Number of inter: 1155 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:02,896 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.6062 - Number of inter: 1126 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:05,769 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.6173 - Number of inter: 1110 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:08,629 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.6171 - Number of inter: 1134 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:11,533 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.6135 - Number of inter: 1110 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:14,403 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.6121 - Number of inter: 1136 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:17,285 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.6119 - Number of inter: 1152 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:20,184 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.6160 - Number of inter: 1139 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:23,061 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.6099 - Number of inter: 1149 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:25,949 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.6063 - Number of inter: 1131 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:25,950 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:36:25,950 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:36:25,950 - INFO - Evaluating nu: 0.3
+2025-05-26 23:36:29,551 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.5843 - Number of inter: 1276 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:33,520 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.5804 - Number of inter: 1281 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:37,424 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.5881 - Number of inter: 1252 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:41,191 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.5881 - Number of inter: 1266 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:45,120 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5897 - Number of inter: 1278 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:49,043 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5841 - Number of inter: 1284 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:52,816 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.5869 - Number of inter: 1293 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:36:56,758 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.5895 - Number of inter: 1270 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:00,649 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5870 - Number of inter: 1276 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:04,507 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.5802 - Number of inter: 1255 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:04,508 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:37:04,508 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:37:04,508 - INFO - Evaluating nu: 0.4
+2025-05-26 23:37:09,142 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.5484 - Number of inter: 1347 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:14,289 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.5501 - Number of inter: 1362 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:19,392 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.5468 - Number of inter: 1365 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:24,448 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.5534 - Number of inter: 1349 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:29,602 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.5544 - Number of inter: 1380 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:34,565 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5489 - Number of inter: 1344 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:39,482 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.5481 - Number of inter: 1369 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:44,516 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5525 - Number of inter: 1372 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:49,310 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.5479 - Number of inter: 1371 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:54,216 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.5484 - Number of inter: 1354 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:37:54,217 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:37:54,217 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:37:54,217 - INFO - Evaluating nu: 0.5
+2025-05-26 23:38:00,073 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4923 - Number of inter: 1373 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:06,461 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4846 - Number of inter: 1390 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:12,826 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4864 - Number of inter: 1372 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:19,092 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4934 - Number of inter: 1384 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:24,941 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4959 - Number of inter: 1370 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:31,159 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4940 - Number of inter: 1342 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:37,066 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4925 - Number of inter: 1358 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:42,799 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4977 - Number of inter: 1373 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:48,991 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4876 - Number of inter: 1363 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:55,315 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4885 - Number of inter: 1370 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:38:55,316 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:38:55,316 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:38:55,316 - INFO - Evaluating nu: 0.6
+2025-05-26 23:39:02,098 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4248 - Number of inter: 1295 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:09,394 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4313 - Number of inter: 1271 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:16,122 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4233 - Number of inter: 1287 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:23,459 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4243 - Number of inter: 1285 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:30,211 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4340 - Number of inter: 1288 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:37,009 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4320 - Number of inter: 1262 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:44,297 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4272 - Number of inter: 1315 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:51,090 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4314 - Number of inter: 1295 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:39:58,400 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4248 - Number of inter: 1322 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:05,123 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4303 - Number of inter: 1315 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:05,124 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:40:05,124 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:40:05,124 - INFO - Evaluating nu: 0.7
+2025-05-26 23:40:12,728 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.3409 - Number of inter: 1130 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:20,941 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.3504 - Number of inter: 1125 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:28,733 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.3442 - Number of inter: 1157 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:37,004 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.3507 - Number of inter: 1143 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:44,614 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.3512 - Number of inter: 1136 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:40:52,880 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.3497 - Number of inter: 1125 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:00,454 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.3538 - Number of inter: 1131 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:08,534 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.3560 - Number of inter: 1115 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:16,119 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.3464 - Number of inter: 1118 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:24,311 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.3535 - Number of inter: 1126 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:24,313 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:41:24,313 - INFO - Testing model: xlm-roberta, kernel: poly
+2025-05-26 23:41:24,313 - INFO - Evaluating nu: 0.8
+2025-05-26 23:41:32,683 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.2600 - Number of inter: 868 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:41,778 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.2644 - Number of inter: 871 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:50,310 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.2655 - Number of inter: 886 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:41:59,480 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.2669 - Number of inter: 886 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:07,982 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.2770 - Number of inter: 875 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:16,547 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.2674 - Number of inter: 872 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:25,297 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.2675 - Number of inter: 893 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:33,776 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.2722 - Number of inter: 881 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:42,812 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.2726 - Number of inter: 883 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:51,860 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.2635 - Number of inter: 871 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:51,862 - INFO - Completed xlm-roberta-poly: 10 nus tested, each with 10 values
+2025-05-26 23:42:51,862 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:42:51,862 - INFO - Evaluating nu: 0.05
+2025-05-26 23:42:52,755 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.6640 - Number of inter: 873 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:53,685 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.6534 - Number of inter: 733 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:54,574 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.6573 - Number of inter: 641 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:55,456 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.6750 - Number of inter: 711 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:56,364 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.6617 - Number of inter: 789 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:57,231 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.6619 - Number of inter: 640 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:58,108 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.6640 - Number of inter: 962 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:59,014 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.6686 - Number of inter: 649 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:42:59,910 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.6653 - Number of inter: 1120 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:00,843 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.6558 - Number of inter: 1111 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:00,844 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:43:00,844 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:43:00,844 - INFO - Evaluating nu: 0.1
+2025-05-26 23:43:02,351 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.6429 - Number of inter: 1229 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:04,010 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.6403 - Number of inter: 2336 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:05,597 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.6511 - Number of inter: 1177 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:07,220 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.6617 - Number of inter: 1017 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:08,830 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.6632 - Number of inter: 1035 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:10,366 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.6595 - Number of inter: 1095 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:11,904 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.6563 - Number of inter: 1617 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:13,528 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.6515 - Number of inter: 977 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:15,087 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.6517 - Number of inter: 1594 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:16,609 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.6488 - Number of inter: 1058 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:16,611 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:43:16,611 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:43:16,611 - INFO - Evaluating nu: 0.2
+2025-05-26 23:43:19,284 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.6283 - Number of inter: 1718 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:22,147 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.6213 - Number of inter: 1388 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:24,897 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.6303 - Number of inter: 1673 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:27,705 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.6384 - Number of inter: 1859 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:30,551 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.6326 - Number of inter: 1793 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:33,349 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.6358 - Number of inter: 2055 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:36,109 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.6314 - Number of inter: 2507 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:39,006 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.6328 - Number of inter: 2055 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:41,748 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.6258 - Number of inter: 2241 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:44,542 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.6264 - Number of inter: 2034 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:44,552 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:43:44,552 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:43:44,552 - INFO - Evaluating nu: 0.3
+2025-05-26 23:43:48,248 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.5859 - Number of inter: 1816 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:52,242 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.5865 - Number of inter: 1622 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:43:56,156 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.5870 - Number of inter: 2221 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:00,029 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.5968 - Number of inter: 2054 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:04,000 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5880 - Number of inter: 1813 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:07,871 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.6016 - Number of inter: 1752 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:11,692 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.5954 - Number of inter: 2285 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:15,730 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.5948 - Number of inter: 1605 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:19,650 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5910 - Number of inter: 2260 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:23,502 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.5875 - Number of inter: 1771 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:23,512 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:44:23,512 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:44:23,513 - INFO - Evaluating nu: 0.4
+2025-05-26 23:44:28,280 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.5327 - Number of inter: 2161 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:33,456 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.5365 - Number of inter: 1963 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:38,467 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.5442 - Number of inter: 2268 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:43,494 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.5511 - Number of inter: 2733 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:48,640 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.5362 - Number of inter: 1856 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:53,642 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5471 - Number of inter: 2222 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:44:58,750 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.5406 - Number of inter: 2780 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:03,895 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5387 - Number of inter: 2347 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:08,897 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.5327 - Number of inter: 3140 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:14,010 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.5357 - Number of inter: 2403 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:14,011 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:45:14,011 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:45:14,012 - INFO - Evaluating nu: 0.5
+2025-05-26 23:45:20,105 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4765 - Number of inter: 1882 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:26,673 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4761 - Number of inter: 2161 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:32,960 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4863 - Number of inter: 2119 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:39,253 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4820 - Number of inter: 1847 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:45,776 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4852 - Number of inter: 1959 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:52,040 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4956 - Number of inter: 2417 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:45:58,438 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4928 - Number of inter: 1803 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:04,845 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4840 - Number of inter: 2404 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:10,885 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4756 - Number of inter: 2186 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:17,208 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4788 - Number of inter: 2275 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:17,209 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:46:17,209 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:46:17,209 - INFO - Evaluating nu: 0.6
+2025-05-26 23:46:24,305 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4113 - Number of inter: 1785 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:31,812 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4173 - Number of inter: 1997 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:39,085 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4300 - Number of inter: 1850 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:46,476 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4261 - Number of inter: 2416 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:46:53,564 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4211 - Number of inter: 2185 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:00,559 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4268 - Number of inter: 1860 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:07,916 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4145 - Number of inter: 1848 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:15,055 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4189 - Number of inter: 2146 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:22,483 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4068 - Number of inter: 2369 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:29,541 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4148 - Number of inter: 1973 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:29,544 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:47:29,544 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:47:29,544 - INFO - Evaluating nu: 0.7
+2025-05-26 23:47:37,426 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.3410 - Number of inter: 2290 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:45,857 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.3528 - Number of inter: 2053 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:47:53,981 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.3575 - Number of inter: 2069 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:02,214 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.3581 - Number of inter: 1720 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:10,109 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.3467 - Number of inter: 2021 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:17,977 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.3531 - Number of inter: 2014 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:26,274 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.3578 - Number of inter: 1711 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:34,272 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.3517 - Number of inter: 1810 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:42,619 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.3341 - Number of inter: 2066 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:50,479 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.3471 - Number of inter: 1837 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:48:50,481 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:48:50,481 - INFO - Testing model: xlm-roberta, kernel: sigmoid
+2025-05-26 23:48:50,481 - INFO - Evaluating nu: 0.8
+2025-05-26 23:48:59,085 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.2606 - Number of inter: 1368 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:49:08,297 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.2596 - Number of inter: 1354 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:49:16,994 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.2655 - Number of inter: 1288 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:49:25,972 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.2776 - Number of inter: 1450 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:49:34,617 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.2655 - Number of inter: 1309 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:49:43,427 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.2661 - Number of inter: 1161 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:49:52,106 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.2713 - Number of inter: 1215 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:50:00,855 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.2645 - Number of inter: 1237 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:50:10,008 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.2572 - Number of inter: 1331 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:50:18,956 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.2681 - Number of inter: 1338 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:50:18,958 - INFO - Completed xlm-roberta-sigmoid: 10 nus tested, each with 10 values
+2025-05-26 23:50:18,958 - INFO - Loading embeddings for model: labse
+2025-05-26 23:50:24,688 - INFO - Testing model: labse, kernel: linear
+2025-05-26 23:50:24,688 - INFO - Evaluating nu: 0.05
+2025-05-26 23:50:33,850 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.5666 - Number of inter: 161160 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:50:43,109 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.5725 - Number of inter: 160381 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:50:52,489 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.5601 - Number of inter: 169556 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:01,519 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.5912 - Number of inter: 171678 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:11,137 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.5839 - Number of inter: 167836 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:20,927 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.5781 - Number of inter: 173556 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:30,573 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.5915 - Number of inter: 169605 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:40,012 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.6258 - Number of inter: 175229 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:49,601 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.5375 - Number of inter: 165895 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:59,138 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.5932 - Number of inter: 168937 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:51:59,140 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-26 23:51:59,140 - INFO - Testing model: labse, kernel: linear
+2025-05-26 23:51:59,140 - INFO - Evaluating nu: 0.1
+2025-05-26 23:52:08,646 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.5596 - Number of inter: 169009 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:52:18,000 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.5923 - Number of inter: 176031 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:52:27,496 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.5639 - Number of inter: 173562 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:52:36,871 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.5605 - Number of inter: 169550 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:52:46,325 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.5900 - Number of inter: 170296 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:52:55,920 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.5715 - Number of inter: 174673 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:53:05,104 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.5531 - Number of inter: 172062 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:53:14,379 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.5795 - Number of inter: 174330 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:53:23,728 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.5941 - Number of inter: 171329 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:53:33,463 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.5747 - Number of inter: 176593 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:53:33,473 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-26 23:53:33,474 - INFO - Testing model: labse, kernel: linear
+2025-05-26 23:53:33,474 - INFO - Evaluating nu: 0.2
+2025-05-26 23:53:43,516 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.5301 - Number of inter: 172610 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:53:53,539 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.5201 - Number of inter: 168678 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:54:03,365 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.5563 - Number of inter: 162079 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:54:13,209 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.5100 - Number of inter: 169395 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:54:22,979 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.5568 - Number of inter: 167821 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:54:33,019 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.5644 - Number of inter: 164760 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:54:42,844 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.5561 - Number of inter: 161896 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:54:52,690 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.5394 - Number of inter: 166299 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:55:02,455 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.5607 - Number of inter: 165334 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:55:12,540 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.5294 - Number of inter: 168428 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:55:12,541 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-26 23:55:12,541 - INFO - Testing model: labse, kernel: linear
+2025-05-26 23:55:12,541 - INFO - Evaluating nu: 0.3
+2025-05-26 23:55:23,015 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.5208 - Number of inter: 157150 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:55:33,262 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.5286 - Number of inter: 160090 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:55:43,651 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.5354 - Number of inter: 158487 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:55:53,797 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.5068 - Number of inter: 155846 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:03,837 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5275 - Number of inter: 155506 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:14,432 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5264 - Number of inter: 164106 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:24,841 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.5272 - Number of inter: 157472 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:35,251 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.5268 - Number of inter: 158495 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:45,707 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5042 - Number of inter: 162298 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:55,654 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.5105 - Number of inter: 162299 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:56:55,656 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-26 23:56:55,656 - INFO - Testing model: labse, kernel: linear
+2025-05-26 23:56:55,656 - INFO - Evaluating nu: 0.4
+2025-05-26 23:57:06,468 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.4733 - Number of inter: 157618 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:57:17,067 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.5128 - Number of inter: 160593 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:57:28,046 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.5121 - Number of inter: 162277 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:57:38,893 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.5045 - Number of inter: 156470 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:57:49,743 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.5383 - Number of inter: 157430 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:58:00,682 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5032 - Number of inter: 156918 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:58:11,453 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.4761 - Number of inter: 152252 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:58:21,967 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5010 - Number of inter: 156393 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:58:32,641 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.4990 - Number of inter: 152228 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:58:43,188 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.5135 - Number of inter: 153916 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:58:43,191 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-26 23:58:43,191 - INFO - Testing model: labse, kernel: linear
+2025-05-26 23:58:43,191 - INFO - Evaluating nu: 0.5
+2025-05-26 23:58:54,567 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.5034 - Number of inter: 161028 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:59:05,863 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4758 - Number of inter: 164059 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:59:17,335 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4749 - Number of inter: 157607 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:59:28,689 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4796 - Number of inter: 150889 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:59:39,805 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.5176 - Number of inter: 165672 - Fit status (0 if correctly fitted): 0
+2025-05-26 23:59:51,190 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4838 - Number of inter: 157604 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:00:02,583 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.5097 - Number of inter: 154130 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:00:13,799 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4430 - Number of inter: 159203 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:00:25,206 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4842 - Number of inter: 153354 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:00:36,627 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4638 - Number of inter: 157754 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:00:36,629 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-27 00:00:36,629 - INFO - Testing model: labse, kernel: linear
+2025-05-27 00:00:36,629 - INFO - Evaluating nu: 0.6
+2025-05-27 00:00:48,352 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4606 - Number of inter: 155768 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:00:59,670 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4619 - Number of inter: 148653 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:01:11,307 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4376 - Number of inter: 153179 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:01:22,962 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4645 - Number of inter: 148764 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:01:34,663 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4379 - Number of inter: 154078 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:01:46,344 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4496 - Number of inter: 150740 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:01:58,027 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4780 - Number of inter: 156885 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:02:09,153 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4213 - Number of inter: 149736 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:02:20,941 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4304 - Number of inter: 152963 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:02:32,611 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4615 - Number of inter: 147725 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:02:32,613 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-27 00:02:32,613 - INFO - Testing model: labse, kernel: linear
+2025-05-27 00:02:32,613 - INFO - Evaluating nu: 0.7
+2025-05-27 00:02:44,546 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.4152 - Number of inter: 159358 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:02:56,287 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.4565 - Number of inter: 158546 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:03:08,356 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.4520 - Number of inter: 156078 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:03:19,758 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.4504 - Number of inter: 147796 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:03:31,772 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.4272 - Number of inter: 154007 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:03:43,879 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.4570 - Number of inter: 157591 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:03:56,064 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.4372 - Number of inter: 153815 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:04:08,420 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.4351 - Number of inter: 156318 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:04:20,686 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.4636 - Number of inter: 156816 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:04:32,470 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.4234 - Number of inter: 149121 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:04:32,506 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-27 00:04:32,506 - INFO - Testing model: labse, kernel: linear
+2025-05-27 00:04:32,506 - INFO - Evaluating nu: 0.8
+2025-05-27 00:04:44,808 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.4316 - Number of inter: 159749 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:04:56,975 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.4336 - Number of inter: 166575 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:05:09,359 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.4029 - Number of inter: 160362 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:05:21,727 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.4039 - Number of inter: 159261 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:05:33,875 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.4151 - Number of inter: 157770 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:05:46,521 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.4603 - Number of inter: 164004 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:05:58,895 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.4067 - Number of inter: 159380 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:11,254 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.4378 - Number of inter: 168809 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:23,639 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.4030 - Number of inter: 163504 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:36,113 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.4259 - Number of inter: 162470 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:36,115 - INFO - Completed labse-linear: 10 nus tested, each with 10 values
+2025-05-27 00:06:36,116 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:06:36,116 - INFO - Evaluating nu: 0.05
+2025-05-27 00:06:37,234 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.8706 - Number of inter: 465 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:38,372 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.8633 - Number of inter: 455 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:39,460 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.8659 - Number of inter: 467 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:40,456 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.8633 - Number of inter: 459 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:41,559 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.8648 - Number of inter: 461 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:42,624 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.8649 - Number of inter: 462 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:43,636 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.8723 - Number of inter: 456 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:44,729 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.8691 - Number of inter: 462 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:45,819 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.8634 - Number of inter: 468 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:46,837 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.8681 - Number of inter: 471 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:46,872 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:06:46,872 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:06:46,872 - INFO - Evaluating nu: 0.1
+2025-05-27 00:06:48,664 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.8833 - Number of inter: 592 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:50,392 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.8822 - Number of inter: 590 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:52,159 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.8812 - Number of inter: 612 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:53,795 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.8793 - Number of inter: 595 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:55,539 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.8816 - Number of inter: 609 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:57,296 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.8820 - Number of inter: 614 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:06:58,945 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.8856 - Number of inter: 601 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:00,680 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.8888 - Number of inter: 599 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:02,402 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.8815 - Number of inter: 595 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:04,064 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.8803 - Number of inter: 604 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:04,065 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:07:04,065 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:07:04,066 - INFO - Evaluating nu: 0.2
+2025-05-27 00:07:07,177 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.8701 - Number of inter: 839 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:10,301 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.8702 - Number of inter: 873 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:13,394 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.8707 - Number of inter: 874 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:16,248 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.8674 - Number of inter: 859 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:19,438 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.8605 - Number of inter: 861 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:22,503 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.8687 - Number of inter: 873 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:25,371 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.8700 - Number of inter: 884 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:28,489 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.8707 - Number of inter: 875 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:31,531 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.8696 - Number of inter: 897 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:34,471 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.8662 - Number of inter: 883 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:34,481 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:07:34,481 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:07:34,482 - INFO - Evaluating nu: 0.3
+2025-05-27 00:07:39,024 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.8186 - Number of inter: 1111 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:43,521 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.8230 - Number of inter: 1123 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:48,009 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.8195 - Number of inter: 1116 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:52,159 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.8174 - Number of inter: 1116 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:07:56,699 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.8157 - Number of inter: 1140 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:01,157 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.8205 - Number of inter: 1148 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:05,294 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.8235 - Number of inter: 1144 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:09,770 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.8240 - Number of inter: 1126 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:14,243 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.8197 - Number of inter: 1142 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:18,405 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.8235 - Number of inter: 1126 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:18,415 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:08:18,415 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:08:18,415 - INFO - Evaluating nu: 0.4
+2025-05-27 00:08:24,294 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.7380 - Number of inter: 1251 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:30,094 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.7460 - Number of inter: 1258 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:35,827 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.7401 - Number of inter: 1225 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:41,183 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.7377 - Number of inter: 1272 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:47,207 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.7371 - Number of inter: 1264 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:52,970 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.7417 - Number of inter: 1265 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:08:58,295 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.7481 - Number of inter: 1250 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:04,114 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.7450 - Number of inter: 1249 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:09,923 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.7461 - Number of inter: 1251 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:15,248 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.7488 - Number of inter: 1272 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:15,250 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:09:15,250 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:09:15,250 - INFO - Evaluating nu: 0.5
+2025-05-27 00:09:22,596 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.6530 - Number of inter: 1298 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:29,784 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.6670 - Number of inter: 1298 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:36,998 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.6564 - Number of inter: 1313 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:44,257 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.6590 - Number of inter: 1311 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:51,563 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.6572 - Number of inter: 1331 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:09:58,843 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.6579 - Number of inter: 1286 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:05,633 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.6619 - Number of inter: 1282 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:13,091 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.6616 - Number of inter: 1287 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:20,399 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.6641 - Number of inter: 1280 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:27,827 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.6696 - Number of inter: 1297 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:27,829 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:10:27,829 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:10:27,829 - INFO - Evaluating nu: 0.6
+2025-05-27 00:10:36,268 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.5594 - Number of inter: 1269 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:44,774 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.5735 - Number of inter: 1252 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:10:53,197 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.5635 - Number of inter: 1261 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:01,133 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.5612 - Number of inter: 1236 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:09,700 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.5617 - Number of inter: 1260 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:17,815 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.5619 - Number of inter: 1266 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:26,258 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.5641 - Number of inter: 1241 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:34,485 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.5610 - Number of inter: 1251 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:42,381 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.5750 - Number of inter: 1257 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:50,638 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.5702 - Number of inter: 1263 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:11:50,640 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:11:50,640 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:11:50,640 - INFO - Evaluating nu: 0.7
+2025-05-27 00:11:59,862 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.4424 - Number of inter: 1095 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:12:09,195 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.4609 - Number of inter: 1133 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:12:18,481 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.4530 - Number of inter: 1131 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:12:27,250 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.4505 - Number of inter: 1114 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:12:36,637 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.4492 - Number of inter: 1130 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:12:45,221 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.4427 - Number of inter: 1128 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:12:53,717 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.4513 - Number of inter: 1112 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:13:03,042 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.4484 - Number of inter: 1113 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:13:12,273 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.4601 - Number of inter: 1118 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:13:21,550 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.4551 - Number of inter: 1109 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:13:21,562 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:13:21,562 - INFO - Testing model: labse, kernel: rbf
+2025-05-27 00:13:21,563 - INFO - Evaluating nu: 0.8
+2025-05-27 00:13:31,545 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.3402 - Number of inter: 803 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:13:41,789 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.3539 - Number of inter: 827 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:13:51,523 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.3554 - Number of inter: 822 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:14:01,398 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.3538 - Number of inter: 830 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:14:11,638 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.3446 - Number of inter: 829 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:14:21,663 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.3408 - Number of inter: 843 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:14:31,797 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.3495 - Number of inter: 842 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:14:41,678 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.3437 - Number of inter: 827 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:14:51,756 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.3622 - Number of inter: 834 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:01,674 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.3521 - Number of inter: 813 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:01,710 - INFO - Completed labse-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:15:01,710 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:15:01,710 - INFO - Evaluating nu: 0.05
+2025-05-27 00:15:03,944 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.5478 - Number of inter: 1794 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:06,149 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.5422 - Number of inter: 1762 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:08,347 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.5475 - Number of inter: 1807 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:10,397 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.5511 - Number of inter: 1784 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:12,577 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.5532 - Number of inter: 1773 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:14,812 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.5545 - Number of inter: 1793 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:16,838 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.5530 - Number of inter: 1741 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:19,081 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.5570 - Number of inter: 1717 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:21,260 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.5507 - Number of inter: 1794 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:23,386 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.5458 - Number of inter: 1814 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:23,421 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:15:23,421 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:15:23,422 - INFO - Evaluating nu: 0.1
+2025-05-27 00:15:25,891 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.5450 - Number of inter: 1947 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:28,455 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.5399 - Number of inter: 1971 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:30,989 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.5428 - Number of inter: 2003 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:33,358 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.5463 - Number of inter: 1961 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:35,902 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.5504 - Number of inter: 1949 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:38,438 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.5501 - Number of inter: 1940 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:40,796 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.5500 - Number of inter: 1960 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:43,343 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.5555 - Number of inter: 1958 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:45,865 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.5459 - Number of inter: 1937 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:48,236 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.5455 - Number of inter: 2007 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:48,271 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:15:48,271 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:15:48,271 - INFO - Evaluating nu: 0.2
+2025-05-27 00:15:51,665 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.5286 - Number of inter: 2017 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:55,115 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.5137 - Number of inter: 1971 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:15:58,445 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.5234 - Number of inter: 1960 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:01,508 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.5243 - Number of inter: 1954 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:04,925 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.5263 - Number of inter: 1991 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:08,333 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.5272 - Number of inter: 2005 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:11,427 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.5297 - Number of inter: 1956 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:14,799 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.5267 - Number of inter: 1937 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:18,114 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.5237 - Number of inter: 1924 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:21,203 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.5212 - Number of inter: 1987 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:21,204 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:16:21,204 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:16:21,204 - INFO - Evaluating nu: 0.3
+2025-05-27 00:16:25,418 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.4927 - Number of inter: 1939 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:29,748 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.4850 - Number of inter: 1909 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:34,211 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.4911 - Number of inter: 1876 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:38,190 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.4957 - Number of inter: 1883 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:42,603 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.4988 - Number of inter: 1904 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:46,877 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.4965 - Number of inter: 1932 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:50,840 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.4960 - Number of inter: 1927 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:55,137 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.4990 - Number of inter: 1895 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:16:59,359 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.4899 - Number of inter: 1860 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:03,280 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.4896 - Number of inter: 1931 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:03,281 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:17:03,281 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:17:03,281 - INFO - Evaluating nu: 0.4
+2025-05-27 00:17:08,552 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.4478 - Number of inter: 1767 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:13,940 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.4383 - Number of inter: 1744 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:19,296 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.4480 - Number of inter: 1815 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:24,162 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.4579 - Number of inter: 1784 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:29,496 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.4564 - Number of inter: 1755 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:34,735 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.4531 - Number of inter: 1754 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:39,606 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.4533 - Number of inter: 1772 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:44,926 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.4560 - Number of inter: 1771 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:50,236 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.4437 - Number of inter: 1756 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:55,071 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.4486 - Number of inter: 1748 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:17:55,072 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:17:55,072 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:17:55,072 - INFO - Evaluating nu: 0.5
+2025-05-27 00:18:01,446 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4052 - Number of inter: 1658 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:07,795 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.3982 - Number of inter: 1672 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:14,166 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4078 - Number of inter: 1693 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:20,530 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4037 - Number of inter: 1694 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:26,819 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4106 - Number of inter: 1671 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:33,210 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4027 - Number of inter: 1677 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:39,607 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4109 - Number of inter: 1682 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:45,902 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4062 - Number of inter: 1689 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:52,306 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.3989 - Number of inter: 1673 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:58,238 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.3942 - Number of inter: 1667 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:18:58,240 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:18:58,240 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:18:58,240 - INFO - Evaluating nu: 0.6
+2025-05-27 00:19:05,612 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.3617 - Number of inter: 1525 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:12,739 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.3531 - Number of inter: 1491 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:19,969 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.3649 - Number of inter: 1487 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:27,299 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.3720 - Number of inter: 1522 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:34,722 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.3745 - Number of inter: 1504 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:42,038 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.3641 - Number of inter: 1507 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:48,851 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.3682 - Number of inter: 1517 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:19:56,287 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.3704 - Number of inter: 1503 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:03,098 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.3593 - Number of inter: 1516 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:09,924 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.3591 - Number of inter: 1469 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:09,925 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:20:09,925 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:20:09,926 - INFO - Evaluating nu: 0.7
+2025-05-27 00:20:18,123 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.2994 - Number of inter: 1252 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:25,934 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.3061 - Number of inter: 1260 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:34,162 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.3117 - Number of inter: 1267 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:42,397 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.3216 - Number of inter: 1270 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:50,567 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.3207 - Number of inter: 1296 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:20:58,760 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.3090 - Number of inter: 1249 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:06,447 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.3133 - Number of inter: 1282 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:14,682 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.3069 - Number of inter: 1287 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:22,930 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.3054 - Number of inter: 1302 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:31,437 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.2989 - Number of inter: 1291 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:31,449 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:21:31,449 - INFO - Testing model: labse, kernel: poly
+2025-05-27 00:21:31,449 - INFO - Evaluating nu: 0.8
+2025-05-27 00:21:40,247 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.2430 - Number of inter: 928 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:48,873 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.2358 - Number of inter: 939 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:21:57,671 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.2467 - Number of inter: 920 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:06,645 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.2539 - Number of inter: 921 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:15,205 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.2567 - Number of inter: 935 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:24,399 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.2414 - Number of inter: 929 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:32,923 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.2472 - Number of inter: 928 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:41,843 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.2511 - Number of inter: 938 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:50,734 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.2400 - Number of inter: 948 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:59,893 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.2421 - Number of inter: 911 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:22:59,895 - INFO - Completed labse-poly: 10 nus tested, each with 10 values
+2025-05-27 00:22:59,895 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:22:59,895 - INFO - Evaluating nu: 0.05
+2025-05-27 00:23:01,006 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.6526 - Number of inter: 5775 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:02,131 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.6464 - Number of inter: 4366 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:03,180 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.6533 - Number of inter: 4663 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:04,214 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.6545 - Number of inter: 4750 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:05,295 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.6528 - Number of inter: 3537 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:06,364 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.6539 - Number of inter: 6855 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:07,440 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.6550 - Number of inter: 5078 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:08,516 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.6522 - Number of inter: 2686 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:09,551 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.6466 - Number of inter: 4725 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:10,579 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.6475 - Number of inter: 3023 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:10,615 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:23:10,615 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:23:10,615 - INFO - Evaluating nu: 0.1
+2025-05-27 00:23:12,401 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.6353 - Number of inter: 6394 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:14,166 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.6351 - Number of inter: 5923 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:15,930 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.6404 - Number of inter: 6688 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:17,616 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.6366 - Number of inter: 4156 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:19,338 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.6361 - Number of inter: 7151 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:21,028 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.6452 - Number of inter: 5038 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:22,709 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.6425 - Number of inter: 5217 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:24,465 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.6441 - Number of inter: 5662 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:26,196 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.6368 - Number of inter: 4543 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:27,904 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.6372 - Number of inter: 5665 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:27,939 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:23:27,939 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:23:27,940 - INFO - Evaluating nu: 0.2
+2025-05-27 00:23:30,970 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.6070 - Number of inter: 9947 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:34,036 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.6021 - Number of inter: 5481 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:37,014 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.6154 - Number of inter: 7440 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:39,848 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.6127 - Number of inter: 5577 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:42,858 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.6128 - Number of inter: 4385 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:45,772 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.6211 - Number of inter: 5685 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:48,681 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.6111 - Number of inter: 6861 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:51,695 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.6160 - Number of inter: 5957 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:54,640 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.6023 - Number of inter: 4999 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:57,486 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.6107 - Number of inter: 5532 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:23:57,487 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:23:57,487 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:23:57,488 - INFO - Evaluating nu: 0.3
+2025-05-27 00:24:01,658 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.5643 - Number of inter: 13320 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:05,670 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.5651 - Number of inter: 5833 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:09,782 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.5734 - Number of inter: 8768 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:13,712 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.5713 - Number of inter: 6502 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:17,814 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5625 - Number of inter: 5928 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:21,743 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5679 - Number of inter: 6989 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:25,852 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.5619 - Number of inter: 5524 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:30,002 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.5684 - Number of inter: 7684 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:33,901 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5685 - Number of inter: 8125 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:38,077 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.5614 - Number of inter: 9276 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:38,086 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:24:38,086 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:24:38,086 - INFO - Evaluating nu: 0.4
+2025-05-27 00:24:43,200 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.5211 - Number of inter: 5342 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:48,435 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.5103 - Number of inter: 6833 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:53,544 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.5253 - Number of inter: 9467 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:24:58,694 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.5262 - Number of inter: 10938 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:03,868 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.5287 - Number of inter: 5829 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:09,179 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5205 - Number of inter: 10960 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:14,123 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.5234 - Number of inter: 6096 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:19,365 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5241 - Number of inter: 5396 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:24,574 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.5205 - Number of inter: 8526 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:29,754 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.5143 - Number of inter: 6897 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:29,755 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:25:29,755 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:25:29,755 - INFO - Evaluating nu: 0.5
+2025-05-27 00:25:35,861 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4847 - Number of inter: 6599 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:41,982 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4832 - Number of inter: 9502 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:48,573 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4904 - Number of inter: 10156 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:25:54,644 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4909 - Number of inter: 6826 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:01,107 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4806 - Number of inter: 8286 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:07,157 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4844 - Number of inter: 9447 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:13,477 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4855 - Number of inter: 5745 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:19,916 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4828 - Number of inter: 8828 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:26,320 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4761 - Number of inter: 7609 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:32,941 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4791 - Number of inter: 10738 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:32,942 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:26:32,942 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:26:32,942 - INFO - Evaluating nu: 0.6
+2025-05-27 00:26:39,967 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4237 - Number of inter: 6853 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:47,632 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4267 - Number of inter: 11128 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:26:55,151 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4310 - Number of inter: 9139 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:02,369 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4314 - Number of inter: 12347 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:09,874 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4337 - Number of inter: 6153 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:17,304 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4272 - Number of inter: 7077 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:24,372 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4310 - Number of inter: 8095 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:31,810 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4310 - Number of inter: 9124 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:39,361 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4304 - Number of inter: 8192 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:46,886 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4356 - Number of inter: 8409 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:27:46,887 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:27:46,887 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:27:46,887 - INFO - Evaluating nu: 0.7
+2025-05-27 00:27:55,101 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.3506 - Number of inter: 8568 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:03,662 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.3682 - Number of inter: 5644 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:12,156 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.3808 - Number of inter: 7999 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:20,103 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.3717 - Number of inter: 9636 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:28,391 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.3601 - Number of inter: 9509 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:36,358 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.3573 - Number of inter: 7675 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:44,569 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.3598 - Number of inter: 7817 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:28:52,366 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.3666 - Number of inter: 8261 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:00,843 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.3640 - Number of inter: 10289 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:09,411 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.3612 - Number of inter: 6388 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:09,412 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:29:09,412 - INFO - Testing model: labse, kernel: sigmoid
+2025-05-27 00:29:09,412 - INFO - Evaluating nu: 0.8
+2025-05-27 00:29:18,555 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.2877 - Number of inter: 7750 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:27,622 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.2920 - Number of inter: 9246 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:36,799 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.3024 - Number of inter: 8244 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:45,637 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.3058 - Number of inter: 9921 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:29:54,850 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.2934 - Number of inter: 7107 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:04,456 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.3024 - Number of inter: 8634 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:13,552 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.2883 - Number of inter: 6811 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:22,901 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.2858 - Number of inter: 9327 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:32,430 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.3053 - Number of inter: 10418 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:41,539 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.3052 - Number of inter: 8648 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:41,549 - INFO - Completed labse-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:30:41,549 - INFO - Loading embeddings for model: distill_bert
+2025-05-27 00:30:46,109 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:30:46,109 - INFO - Evaluating nu: 0.05
+2025-05-27 00:30:52,238 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.5513 - Number of inter: 34238 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:30:58,641 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.5391 - Number of inter: 32899 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:05,334 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.5574 - Number of inter: 36159 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:11,587 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.5512 - Number of inter: 36617 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:18,071 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.5274 - Number of inter: 32209 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:24,846 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.5302 - Number of inter: 48769 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:31,666 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.5666 - Number of inter: 36124 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:38,241 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.5622 - Number of inter: 35942 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:44,253 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.5440 - Number of inter: 33737 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:50,848 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.5187 - Number of inter: 34118 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:31:50,849 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:31:50,849 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:31:50,849 - INFO - Evaluating nu: 0.1
+2025-05-27 00:31:57,152 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.5508 - Number of inter: 36374 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:04,186 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.5268 - Number of inter: 42048 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:11,051 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.5423 - Number of inter: 37620 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:17,741 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.5169 - Number of inter: 41743 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:24,862 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.5064 - Number of inter: 42968 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:31,634 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.5242 - Number of inter: 49907 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:38,524 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.5290 - Number of inter: 43403 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:45,968 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.5386 - Number of inter: 57414 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:32:52,664 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.5107 - Number of inter: 42029 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:00,053 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.5199 - Number of inter: 53221 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:00,054 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:33:00,054 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:33:00,054 - INFO - Evaluating nu: 0.2
+2025-05-27 00:33:06,671 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.5251 - Number of inter: 33018 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:13,900 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.5074 - Number of inter: 33640 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:20,819 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.5102 - Number of inter: 32403 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:27,768 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.5113 - Number of inter: 36284 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:34,859 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.4916 - Number of inter: 32100 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:42,443 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.4977 - Number of inter: 40267 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:49,643 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.4818 - Number of inter: 39177 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:33:56,767 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.5133 - Number of inter: 35314 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:04,072 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.5469 - Number of inter: 33751 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:11,407 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.4754 - Number of inter: 40903 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:11,408 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:34:11,408 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:34:11,408 - INFO - Evaluating nu: 0.3
+2025-05-27 00:34:19,181 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.4873 - Number of inter: 34497 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:27,801 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.4519 - Number of inter: 41817 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:36,354 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.4780 - Number of inter: 39912 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:44,232 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.4800 - Number of inter: 40330 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:34:52,948 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.4796 - Number of inter: 44543 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:00,896 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5242 - Number of inter: 37619 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:09,134 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.4665 - Number of inter: 34539 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:17,756 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.4956 - Number of inter: 44930 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:25,633 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5223 - Number of inter: 36431 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:34,089 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.4623 - Number of inter: 40992 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:34,099 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:35:34,099 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:35:34,099 - INFO - Evaluating nu: 0.4
+2025-05-27 00:35:42,975 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.4682 - Number of inter: 47427 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:35:52,459 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.4539 - Number of inter: 51816 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:02,031 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.4600 - Number of inter: 51278 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:10,921 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.4428 - Number of inter: 51915 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:20,210 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.4801 - Number of inter: 50079 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:29,044 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.4755 - Number of inter: 48016 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:38,385 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.4679 - Number of inter: 47272 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:47,512 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5144 - Number of inter: 43382 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:36:56,214 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.4574 - Number of inter: 44796 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:37:05,480 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.4634 - Number of inter: 47836 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:37:05,482 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:37:05,482 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:37:05,482 - INFO - Evaluating nu: 0.5
+2025-05-27 00:37:14,677 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4414 - Number of inter: 41729 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:37:24,673 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4898 - Number of inter: 52909 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:37:34,621 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4564 - Number of inter: 49837 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:37:44,094 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4436 - Number of inter: 53625 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:37:54,015 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4300 - Number of inter: 52142 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:38:03,131 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4597 - Number of inter: 45935 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:38:13,074 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4512 - Number of inter: 47097 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:38:22,856 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4742 - Number of inter: 48883 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:38:32,141 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4515 - Number of inter: 45518 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:38:41,882 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4475 - Number of inter: 53803 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:38:41,883 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:38:41,883 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:38:41,883 - INFO - Evaluating nu: 0.6
+2025-05-27 00:38:51,559 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4158 - Number of inter: 42983 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:39:01,615 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4733 - Number of inter: 45798 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:39:11,890 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4431 - Number of inter: 44863 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:39:21,613 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4363 - Number of inter: 51598 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:39:31,899 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4358 - Number of inter: 46137 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:39:41,694 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4245 - Number of inter: 46980 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:39:52,079 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4612 - Number of inter: 50045 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:40:02,335 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4361 - Number of inter: 39753 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:40:11,927 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4736 - Number of inter: 40421 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:40:22,207 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4635 - Number of inter: 47640 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:40:22,218 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:40:22,218 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:40:22,218 - INFO - Evaluating nu: 0.7
+2025-05-27 00:40:32,298 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.4198 - Number of inter: 40285 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:40:43,200 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.4290 - Number of inter: 40705 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:40:53,806 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.4211 - Number of inter: 38956 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:41:03,960 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.4097 - Number of inter: 46529 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:41:14,441 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.4468 - Number of inter: 32124 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:41:24,522 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.4196 - Number of inter: 38651 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:41:35,303 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.4521 - Number of inter: 41239 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:41:45,617 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.4282 - Number of inter: 36305 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:41:55,372 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.4027 - Number of inter: 36589 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:42:05,528 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.4050 - Number of inter: 31111 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:42:05,538 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:42:05,538 - INFO - Testing model: distill_bert, kernel: linear
+2025-05-27 00:42:05,539 - INFO - Evaluating nu: 0.8
+2025-05-27 00:42:15,654 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.4150 - Number of inter: 39901 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:42:26,009 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.4180 - Number of inter: 33603 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:42:36,963 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.3944 - Number of inter: 50673 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:42:47,147 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.4407 - Number of inter: 48698 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:42:57,631 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.3818 - Number of inter: 32562 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:07,590 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.3924 - Number of inter: 33288 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:18,643 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.4118 - Number of inter: 53016 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:29,263 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.4311 - Number of inter: 36620 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:39,371 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.4305 - Number of inter: 38471 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:50,084 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.4005 - Number of inter: 51276 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:50,119 - INFO - Completed distill_bert-linear: 10 nus tested, each with 10 values
+2025-05-27 00:43:50,120 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:43:50,120 - INFO - Evaluating nu: 0.05
+2025-05-27 00:43:50,978 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.8172 - Number of inter: 307 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:51,925 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.8193 - Number of inter: 318 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:52,850 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.8281 - Number of inter: 321 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:53,706 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.8268 - Number of inter: 314 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:54,656 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.8284 - Number of inter: 325 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:55,525 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.8280 - Number of inter: 325 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:56,456 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.8227 - Number of inter: 315 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:57,382 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.8242 - Number of inter: 317 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:58,231 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.8174 - Number of inter: 306 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:59,158 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.8228 - Number of inter: 327 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:43:59,159 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:43:59,159 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:43:59,159 - INFO - Evaluating nu: 0.1
+2025-05-27 00:44:00,730 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.8272 - Number of inter: 514 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:02,417 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.8302 - Number of inter: 519 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:04,082 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.8351 - Number of inter: 528 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:05,639 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.8338 - Number of inter: 522 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:07,327 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.8356 - Number of inter: 529 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:08,861 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.8326 - Number of inter: 515 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:10,522 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.8345 - Number of inter: 527 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:12,191 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.8331 - Number of inter: 517 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:13,727 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.8313 - Number of inter: 524 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:15,368 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.8301 - Number of inter: 515 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:15,378 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:44:15,378 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:44:15,378 - INFO - Evaluating nu: 0.2
+2025-05-27 00:44:18,232 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.8237 - Number of inter: 865 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:21,348 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.8231 - Number of inter: 871 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:24,473 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.8292 - Number of inter: 847 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:27,270 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.8189 - Number of inter: 823 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:30,361 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.8265 - Number of inter: 864 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:33,216 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.8245 - Number of inter: 821 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:36,312 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.8238 - Number of inter: 860 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:39,349 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.8272 - Number of inter: 848 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:42,203 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.8220 - Number of inter: 847 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:45,195 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.8231 - Number of inter: 838 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:45,196 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:44:45,196 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:44:45,196 - INFO - Evaluating nu: 0.3
+2025-05-27 00:44:49,397 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.7826 - Number of inter: 1065 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:53,934 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.7846 - Number of inter: 1081 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:44:58,551 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.7899 - Number of inter: 1098 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:02,700 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.7767 - Number of inter: 1104 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:07,257 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.7837 - Number of inter: 1068 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:11,336 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.7901 - Number of inter: 1079 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:15,802 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.7874 - Number of inter: 1086 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:20,412 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.7792 - Number of inter: 1099 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:24,556 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.7840 - Number of inter: 1067 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:29,093 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.7808 - Number of inter: 1088 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:29,094 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:45:29,094 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:45:29,094 - INFO - Evaluating nu: 0.4
+2025-05-27 00:45:34,465 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.7230 - Number of inter: 1238 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:40,365 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.7246 - Number of inter: 1231 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:46,123 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.7280 - Number of inter: 1210 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:51,480 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.7110 - Number of inter: 1212 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:45:57,397 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.7160 - Number of inter: 1226 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:02,702 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.7230 - Number of inter: 1218 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:08,562 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.7218 - Number of inter: 1226 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:14,284 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.7165 - Number of inter: 1243 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:19,561 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.7170 - Number of inter: 1239 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:25,323 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.7169 - Number of inter: 1209 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:25,358 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:46:25,358 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:46:25,358 - INFO - Evaluating nu: 0.5
+2025-05-27 00:46:32,193 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.6599 - Number of inter: 1245 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:39,566 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.6567 - Number of inter: 1260 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:47,029 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.6561 - Number of inter: 1242 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:46:53,673 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.6450 - Number of inter: 1257 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:01,022 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.6501 - Number of inter: 1249 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:07,810 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.6593 - Number of inter: 1249 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:15,132 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.6575 - Number of inter: 1230 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:22,451 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.6572 - Number of inter: 1235 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:29,140 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.6542 - Number of inter: 1248 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:36,361 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.6527 - Number of inter: 1242 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:36,362 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:47:36,362 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:47:36,362 - INFO - Evaluating nu: 0.6
+2025-05-27 00:47:44,132 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.5594 - Number of inter: 1208 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:47:52,746 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.5631 - Number of inter: 1217 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:01,317 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.5642 - Number of inter: 1218 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:09,054 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.5437 - Number of inter: 1217 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:17,623 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.5626 - Number of inter: 1230 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:25,806 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.5555 - Number of inter: 1227 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:33,584 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.5553 - Number of inter: 1201 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:42,010 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.5601 - Number of inter: 1209 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:50,442 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.5526 - Number of inter: 1229 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:58,337 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.5479 - Number of inter: 1216 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:48:58,338 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:48:58,338 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:48:58,338 - INFO - Evaluating nu: 0.7
+2025-05-27 00:49:07,116 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.4718 - Number of inter: 1083 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:49:16,597 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.4730 - Number of inter: 1052 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:49:26,110 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.4784 - Number of inter: 1058 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:49:34,633 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.4602 - Number of inter: 1105 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:49:44,169 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.4782 - Number of inter: 1064 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:49:52,575 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.4717 - Number of inter: 1058 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:02,039 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.4761 - Number of inter: 1067 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:11,475 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.4717 - Number of inter: 1051 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:20,020 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.4719 - Number of inter: 1067 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:29,159 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.4677 - Number of inter: 1064 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:29,160 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:50:29,160 - INFO - Testing model: distill_bert, kernel: rbf
+2025-05-27 00:50:29,160 - INFO - Evaluating nu: 0.8
+2025-05-27 00:50:38,556 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.3315 - Number of inter: 800 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:48,693 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.3259 - Number of inter: 821 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:50:58,902 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.3394 - Number of inter: 815 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:51:08,200 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.3203 - Number of inter: 820 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:51:18,465 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.3408 - Number of inter: 816 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:51:27,659 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.3245 - Number of inter: 801 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:51:37,773 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.3349 - Number of inter: 814 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:51:47,826 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.3274 - Number of inter: 811 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:51:56,914 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.3253 - Number of inter: 802 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:06,845 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.3253 - Number of inter: 801 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:06,845 - INFO - Completed distill_bert-rbf: 10 nus tested, each with 10 values
+2025-05-27 00:52:06,845 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:52:06,846 - INFO - Evaluating nu: 0.05
+2025-05-27 00:52:07,819 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.6518 - Number of inter: 605 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:08,864 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.6490 - Number of inter: 620 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:09,872 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.6512 - Number of inter: 594 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:10,808 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.6547 - Number of inter: 587 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:11,849 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.6501 - Number of inter: 618 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:12,818 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.6579 - Number of inter: 600 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:13,862 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.6532 - Number of inter: 615 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:14,888 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.6604 - Number of inter: 574 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:15,848 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.6472 - Number of inter: 624 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:16,892 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.6464 - Number of inter: 647 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:16,927 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:52:16,927 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:52:16,927 - INFO - Evaluating nu: 0.1
+2025-05-27 00:52:18,433 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.6393 - Number of inter: 774 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:20,092 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.6348 - Number of inter: 828 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:21,681 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.6387 - Number of inter: 764 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:23,177 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.6368 - Number of inter: 750 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:24,813 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.6412 - Number of inter: 770 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:26,297 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.6448 - Number of inter: 762 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:27,907 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.6427 - Number of inter: 746 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:29,521 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.6427 - Number of inter: 776 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:31,002 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.6348 - Number of inter: 796 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:32,656 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.6371 - Number of inter: 791 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:32,657 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:52:32,657 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:52:32,657 - INFO - Evaluating nu: 0.2
+2025-05-27 00:52:35,229 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.6109 - Number of inter: 1022 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:38,034 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.6029 - Number of inter: 1005 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:40,831 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.6002 - Number of inter: 1006 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:43,360 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.6028 - Number of inter: 996 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:46,153 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.6004 - Number of inter: 1037 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:48,673 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.6117 - Number of inter: 978 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:51,429 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.6103 - Number of inter: 984 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:54,189 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.6121 - Number of inter: 1010 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:56,712 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.5943 - Number of inter: 992 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:59,505 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.6007 - Number of inter: 1004 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:52:59,506 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:52:59,506 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:52:59,506 - INFO - Evaluating nu: 0.3
+2025-05-27 00:53:03,146 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.5824 - Number of inter: 1257 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:07,023 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.5736 - Number of inter: 1230 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:10,976 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.5713 - Number of inter: 1226 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:14,597 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.5769 - Number of inter: 1214 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:18,444 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5740 - Number of inter: 1220 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:22,058 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5823 - Number of inter: 1228 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:25,951 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.5774 - Number of inter: 1223 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:29,861 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.5839 - Number of inter: 1221 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:33,477 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5714 - Number of inter: 1221 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:37,368 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.5722 - Number of inter: 1202 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:37,403 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:53:37,403 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:53:37,403 - INFO - Evaluating nu: 0.4
+2025-05-27 00:53:42,068 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.5453 - Number of inter: 1344 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:47,118 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.5308 - Number of inter: 1344 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:52,182 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.5279 - Number of inter: 1351 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:53:56,820 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.5407 - Number of inter: 1322 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:01,823 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.5325 - Number of inter: 1312 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:06,485 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5379 - Number of inter: 1324 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:11,565 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.5340 - Number of inter: 1339 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:16,572 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5424 - Number of inter: 1321 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:21,289 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.5328 - Number of inter: 1324 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:26,413 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.5376 - Number of inter: 1334 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:26,448 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:54:26,448 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:54:26,448 - INFO - Evaluating nu: 0.5
+2025-05-27 00:54:32,347 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4901 - Number of inter: 1387 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:38,746 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4768 - Number of inter: 1364 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:44,944 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4748 - Number of inter: 1379 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:50,640 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4832 - Number of inter: 1399 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:54:56,830 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4709 - Number of inter: 1345 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:02,558 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4809 - Number of inter: 1387 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:08,775 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4823 - Number of inter: 1371 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:14,986 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4771 - Number of inter: 1377 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:20,678 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4838 - Number of inter: 1397 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:26,809 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4787 - Number of inter: 1384 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:26,810 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:55:26,810 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:55:26,810 - INFO - Evaluating nu: 0.6
+2025-05-27 00:55:33,580 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4299 - Number of inter: 1321 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:40,950 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4231 - Number of inter: 1306 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:48,215 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4190 - Number of inter: 1322 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:55:54,976 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4344 - Number of inter: 1300 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:02,349 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4184 - Number of inter: 1277 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:09,635 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4273 - Number of inter: 1315 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:16,396 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4273 - Number of inter: 1309 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:23,883 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4267 - Number of inter: 1318 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:31,147 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4207 - Number of inter: 1350 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:37,934 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4255 - Number of inter: 1313 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:37,969 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:56:37,969 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:56:37,969 - INFO - Evaluating nu: 0.7
+2025-05-27 00:56:45,790 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.3575 - Number of inter: 1158 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:56:54,107 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.3496 - Number of inter: 1148 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:02,558 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.3464 - Number of inter: 1154 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:10,301 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.3604 - Number of inter: 1123 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:18,716 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.3501 - Number of inter: 1118 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:26,484 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.3596 - Number of inter: 1143 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:34,785 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.3576 - Number of inter: 1155 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:43,066 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.3493 - Number of inter: 1135 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:50,670 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.3565 - Number of inter: 1140 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:58,745 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.3553 - Number of inter: 1145 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:57:58,780 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:57:58,780 - INFO - Testing model: distill_bert, kernel: poly
+2025-05-27 00:57:58,780 - INFO - Evaluating nu: 0.8
+2025-05-27 00:58:07,152 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.2730 - Number of inter: 854 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:58:16,088 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.2701 - Number of inter: 890 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:58:25,013 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.2655 - Number of inter: 851 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:58:33,351 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.2746 - Number of inter: 859 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:58:42,480 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.2690 - Number of inter: 860 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:58:50,941 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.2728 - Number of inter: 853 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:00,179 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.2698 - Number of inter: 878 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:09,227 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.2703 - Number of inter: 886 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:17,709 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.2741 - Number of inter: 854 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:26,797 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.2740 - Number of inter: 860 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:26,832 - INFO - Completed distill_bert-poly: 10 nus tested, each with 10 values
+2025-05-27 00:59:26,833 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 00:59:26,833 - INFO - Evaluating nu: 0.05
+2025-05-27 00:59:27,696 - INFO - Fold 1 - Nu 0.05 - F1-score: 0.6483 - Number of inter: 994 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:28,658 - INFO - Fold 2 - Nu 0.05 - F1-score: 0.6447 - Number of inter: 1202 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:29,581 - INFO - Fold 3 - Nu 0.05 - F1-score: 0.6527 - Number of inter: 1338 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:30,440 - INFO - Fold 4 - Nu 0.05 - F1-score: 0.6532 - Number of inter: 871 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:31,370 - INFO - Fold 5 - Nu 0.05 - F1-score: 0.6580 - Number of inter: 1090 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:32,261 - INFO - Fold 6 - Nu 0.05 - F1-score: 0.6563 - Number of inter: 1382 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:33,199 - INFO - Fold 7 - Nu 0.05 - F1-score: 0.6576 - Number of inter: 1387 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:34,100 - INFO - Fold 8 - Nu 0.05 - F1-score: 0.6531 - Number of inter: 1070 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:34,992 - INFO - Fold 9 - Nu 0.05 - F1-score: 0.6508 - Number of inter: 1131 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:35,896 - INFO - Fold 10 - Nu 0.05 - F1-score: 0.6494 - Number of inter: 866 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:35,931 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:59:35,931 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 00:59:35,932 - INFO - Evaluating nu: 0.1
+2025-05-27 00:59:37,457 - INFO - Fold 1 - Nu 0.1 - F1-score: 0.6344 - Number of inter: 1149 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:39,094 - INFO - Fold 2 - Nu 0.1 - F1-score: 0.6319 - Number of inter: 2184 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:40,717 - INFO - Fold 3 - Nu 0.1 - F1-score: 0.6373 - Number of inter: 1777 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:42,227 - INFO - Fold 4 - Nu 0.1 - F1-score: 0.6386 - Number of inter: 1131 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:43,876 - INFO - Fold 5 - Nu 0.1 - F1-score: 0.6456 - Number of inter: 1245 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:45,378 - INFO - Fold 6 - Nu 0.1 - F1-score: 0.6425 - Number of inter: 1610 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:47,052 - INFO - Fold 7 - Nu 0.1 - F1-score: 0.6411 - Number of inter: 1323 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:48,716 - INFO - Fold 8 - Nu 0.1 - F1-score: 0.6387 - Number of inter: 2201 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:50,214 - INFO - Fold 9 - Nu 0.1 - F1-score: 0.6391 - Number of inter: 1173 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:51,842 - INFO - Fold 10 - Nu 0.1 - F1-score: 0.6350 - Number of inter: 1356 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:51,877 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 00:59:51,877 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 00:59:51,877 - INFO - Evaluating nu: 0.2
+2025-05-27 00:59:54,536 - INFO - Fold 1 - Nu 0.2 - F1-score: 0.6056 - Number of inter: 1605 - Fit status (0 if correctly fitted): 0
+2025-05-27 00:59:57,383 - INFO - Fold 2 - Nu 0.2 - F1-score: 0.6005 - Number of inter: 1919 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:00,234 - INFO - Fold 3 - Nu 0.2 - F1-score: 0.6061 - Number of inter: 1888 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:02,903 - INFO - Fold 4 - Nu 0.2 - F1-score: 0.6083 - Number of inter: 1795 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:05,748 - INFO - Fold 5 - Nu 0.2 - F1-score: 0.6117 - Number of inter: 2369 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:08,408 - INFO - Fold 6 - Nu 0.2 - F1-score: 0.6105 - Number of inter: 1693 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:11,295 - INFO - Fold 7 - Nu 0.2 - F1-score: 0.6127 - Number of inter: 1798 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:14,192 - INFO - Fold 8 - Nu 0.2 - F1-score: 0.6054 - Number of inter: 1911 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:16,845 - INFO - Fold 9 - Nu 0.2 - F1-score: 0.6095 - Number of inter: 2102 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:19,668 - INFO - Fold 10 - Nu 0.2 - F1-score: 0.6023 - Number of inter: 1693 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:19,669 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:00:19,669 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 01:00:19,669 - INFO - Evaluating nu: 0.3
+2025-05-27 01:00:23,441 - INFO - Fold 1 - Nu 0.3 - F1-score: 0.5705 - Number of inter: 2794 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:27,448 - INFO - Fold 2 - Nu 0.3 - F1-score: 0.5601 - Number of inter: 1725 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:31,420 - INFO - Fold 3 - Nu 0.3 - F1-score: 0.5698 - Number of inter: 1774 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:35,096 - INFO - Fold 4 - Nu 0.3 - F1-score: 0.5699 - Number of inter: 1670 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:39,056 - INFO - Fold 5 - Nu 0.3 - F1-score: 0.5718 - Number of inter: 1411 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:42,727 - INFO - Fold 6 - Nu 0.3 - F1-score: 0.5697 - Number of inter: 1767 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:46,739 - INFO - Fold 7 - Nu 0.3 - F1-score: 0.5727 - Number of inter: 1960 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:50,725 - INFO - Fold 8 - Nu 0.3 - F1-score: 0.5685 - Number of inter: 1662 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:54,427 - INFO - Fold 9 - Nu 0.3 - F1-score: 0.5748 - Number of inter: 1958 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:58,335 - INFO - Fold 10 - Nu 0.3 - F1-score: 0.5676 - Number of inter: 1958 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:00:58,371 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:00:58,371 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 01:00:58,371 - INFO - Evaluating nu: 0.4
+2025-05-27 01:01:03,044 - INFO - Fold 1 - Nu 0.4 - F1-score: 0.5214 - Number of inter: 2325 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:08,055 - INFO - Fold 2 - Nu 0.4 - F1-score: 0.5209 - Number of inter: 2286 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:13,184 - INFO - Fold 3 - Nu 0.4 - F1-score: 0.5291 - Number of inter: 2382 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:17,937 - INFO - Fold 4 - Nu 0.4 - F1-score: 0.5303 - Number of inter: 3017 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:22,966 - INFO - Fold 5 - Nu 0.4 - F1-score: 0.5303 - Number of inter: 1980 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:27,687 - INFO - Fold 6 - Nu 0.4 - F1-score: 0.5292 - Number of inter: 2256 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:32,707 - INFO - Fold 7 - Nu 0.4 - F1-score: 0.5301 - Number of inter: 2012 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:37,643 - INFO - Fold 8 - Nu 0.4 - F1-score: 0.5264 - Number of inter: 2200 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:42,380 - INFO - Fold 9 - Nu 0.4 - F1-score: 0.5339 - Number of inter: 2047 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:47,457 - INFO - Fold 10 - Nu 0.4 - F1-score: 0.5257 - Number of inter: 2492 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:47,492 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:01:47,492 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 01:01:47,492 - INFO - Evaluating nu: 0.5
+2025-05-27 01:01:53,443 - INFO - Fold 1 - Nu 0.5 - F1-score: 0.4719 - Number of inter: 2374 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:01:59,772 - INFO - Fold 2 - Nu 0.5 - F1-score: 0.4748 - Number of inter: 1784 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:06,076 - INFO - Fold 3 - Nu 0.5 - F1-score: 0.4854 - Number of inter: 1689 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:12,023 - INFO - Fold 4 - Nu 0.5 - F1-score: 0.4785 - Number of inter: 2298 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:18,343 - INFO - Fold 5 - Nu 0.5 - F1-score: 0.4777 - Number of inter: 1910 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:24,197 - INFO - Fold 6 - Nu 0.5 - F1-score: 0.4791 - Number of inter: 3013 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:30,535 - INFO - Fold 7 - Nu 0.5 - F1-score: 0.4800 - Number of inter: 2404 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:36,849 - INFO - Fold 8 - Nu 0.5 - F1-score: 0.4815 - Number of inter: 2430 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:42,703 - INFO - Fold 9 - Nu 0.5 - F1-score: 0.4818 - Number of inter: 2619 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:48,938 - INFO - Fold 10 - Nu 0.5 - F1-score: 0.4815 - Number of inter: 1749 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:02:48,973 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:02:48,973 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 01:02:48,973 - INFO - Evaluating nu: 0.6
+2025-05-27 01:02:55,998 - INFO - Fold 1 - Nu 0.6 - F1-score: 0.4138 - Number of inter: 1846 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:03,511 - INFO - Fold 2 - Nu 0.6 - F1-score: 0.4118 - Number of inter: 1897 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:10,964 - INFO - Fold 3 - Nu 0.6 - F1-score: 0.4359 - Number of inter: 2099 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:17,982 - INFO - Fold 4 - Nu 0.6 - F1-score: 0.4237 - Number of inter: 1946 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:25,339 - INFO - Fold 5 - Nu 0.6 - F1-score: 0.4256 - Number of inter: 1733 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:32,616 - INFO - Fold 6 - Nu 0.6 - F1-score: 0.4312 - Number of inter: 1853 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:39,583 - INFO - Fold 7 - Nu 0.6 - F1-score: 0.4209 - Number of inter: 1824 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:47,025 - INFO - Fold 8 - Nu 0.6 - F1-score: 0.4231 - Number of inter: 1944 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:03:54,422 - INFO - Fold 9 - Nu 0.6 - F1-score: 0.4233 - Number of inter: 1750 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:01,454 - INFO - Fold 10 - Nu 0.6 - F1-score: 0.4225 - Number of inter: 2128 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:01,464 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:04:01,464 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 01:04:01,464 - INFO - Evaluating nu: 0.7
+2025-05-27 01:04:09,227 - INFO - Fold 1 - Nu 0.7 - F1-score: 0.3459 - Number of inter: 1504 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:17,429 - INFO - Fold 2 - Nu 0.7 - F1-score: 0.3485 - Number of inter: 1605 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:25,680 - INFO - Fold 3 - Nu 0.7 - F1-score: 0.3693 - Number of inter: 1465 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:33,440 - INFO - Fold 4 - Nu 0.7 - F1-score: 0.3594 - Number of inter: 1596 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:41,737 - INFO - Fold 5 - Nu 0.7 - F1-score: 0.3560 - Number of inter: 1531 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:49,571 - INFO - Fold 6 - Nu 0.7 - F1-score: 0.3590 - Number of inter: 1416 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:04:58,040 - INFO - Fold 7 - Nu 0.7 - F1-score: 0.3510 - Number of inter: 1782 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:06,441 - INFO - Fold 8 - Nu 0.7 - F1-score: 0.3508 - Number of inter: 1587 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:14,282 - INFO - Fold 9 - Nu 0.7 - F1-score: 0.3525 - Number of inter: 1477 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:22,467 - INFO - Fold 10 - Nu 0.7 - F1-score: 0.3565 - Number of inter: 1772 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:22,468 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:05:22,468 - INFO - Testing model: distill_bert, kernel: sigmoid
+2025-05-27 01:05:22,468 - INFO - Evaluating nu: 0.8
+2025-05-27 01:05:31,125 - INFO - Fold 1 - Nu 0.8 - F1-score: 0.2688 - Number of inter: 1169 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:40,322 - INFO - Fold 2 - Nu 0.8 - F1-score: 0.2708 - Number of inter: 1245 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:49,448 - INFO - Fold 3 - Nu 0.8 - F1-score: 0.2790 - Number of inter: 1251 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:05:57,996 - INFO - Fold 4 - Nu 0.8 - F1-score: 0.2743 - Number of inter: 1169 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:07,013 - INFO - Fold 5 - Nu 0.8 - F1-score: 0.2883 - Number of inter: 1138 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:15,532 - INFO - Fold 6 - Nu 0.8 - F1-score: 0.2715 - Number of inter: 1377 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:24,582 - INFO - Fold 7 - Nu 0.8 - F1-score: 0.2717 - Number of inter: 1324 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:33,613 - INFO - Fold 8 - Nu 0.8 - F1-score: 0.2757 - Number of inter: 1212 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:42,087 - INFO - Fold 9 - Nu 0.8 - F1-score: 0.2801 - Number of inter: 1399 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:50,887 - INFO - Fold 10 - Nu 0.8 - F1-score: 0.2690 - Number of inter: 1787 - Fit status (0 if correctly fitted): 0
+2025-05-27 01:06:50,923 - INFO - Completed distill_bert-sigmoid: 10 nus tested, each with 10 values
+2025-05-27 01:06:50,923 - INFO - All model-kernel combinations tested. Results saved to results.jsonl
