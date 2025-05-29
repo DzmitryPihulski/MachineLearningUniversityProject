@@ -97,18 +97,18 @@ def create_plots(results, output_dir="plots", figure_size=(10, 8), dpi=300):
             )
 
         # Customize plot
-        ax.set_xlabel("Nu Value", fontsize=14, fontweight="bold")
-        ax.set_ylabel("F-1 Score", fontsize=14, fontweight="bold")
+        ax.set_xlabel("Nu Value", fontsize=19, fontweight="bold")
+        ax.set_ylabel("F-1 Score", fontsize=19, fontweight="bold")
         ax.set_title(
             f"Model Performance Comparison - {kernel_name.upper()} Kernel",
-            fontsize=16,
+            fontsize=22,
             fontweight="bold",
             pad=20,
         )
 
         # Customize legend
         legend = ax.legend(
-            fontsize=12, frameon=True, fancybox=True, shadow=True, loc="best"
+            fontsize=20, frameon=True, fancybox=True, shadow=True, loc="best"
         )
         legend.get_frame().set_facecolor("white")
         legend.get_frame().set_alpha(0.9)
@@ -118,7 +118,7 @@ def create_plots(results, output_dir="plots", figure_size=(10, 8), dpi=300):
         ax.set_facecolor("#FAFAFA")
 
         # Customize ticks
-        ax.tick_params(axis="both", which="major", labelsize=11)
+        ax.tick_params(axis="both", which="major", labelsize=18)
 
         ax.set_ylim(0, 1)
 
@@ -177,17 +177,24 @@ def plot_summary_statistics(results, output_dir="plots"):
     sns.heatmap(
         pivot_df,
         annot=True,
-        fmt=".4f",
+        annot_kws={"fontsize": 22},
+        fmt=".3f",
         cmap="RdYlBu_r",
         center=pivot_df.values.mean(),
         square=True,
         linewidths=0.5,
         cbar_kws={"shrink": 0.8},
+        yticklabels=["Distilled BERT", "LaBSE", "XLM-RoBERTa"],
+        xticklabels=["Linear", "Polynomial", "RBF", "Sigmoid"],
         ax=ax,
     )
 
+    ax.tick_params(axis="both", labelsize=16)
+
+    ax.set_xlabel("Kernel", fontsize=19, fontweight="bold")
+    ax.set_ylabel("Model", fontsize=19, fontweight="bold")
     ax.set_title(
-        "Best Performance (Mean Scores)", fontsize=16, fontweight="bold", pad=20
+        "Best Performance (Mean Scores)", fontsize=22, fontweight="bold", pad=20
     )
     plt.tight_layout()
 
