@@ -17,14 +17,26 @@ This folder contains structured datasets used throughout the experimentation pro
 
 #### 1.2.1 Preparation
 
+The data-gathering pipeline consists of the following steps:
+
+1. **Politician Selection**  
+   The file `data/datasets/politicians_by_country.json` contains 10 countries, each with a list of 10 prominent politicians. Countries were chosen to ensure linguistic diversity (e.g., USA, Germany, Poland, Japan, etc.).
+
+2. **Search Result Collection**  
+   The [Serper.dev](https://serper.dev/) Google Search API was used to collect search results for each individual politician. For each country, the search parameters (location and language) were set specifically to match the local context and language.
+
+3. **Scraping and Text Extraction**  
+   Web scraping and processing of text fragments were conducted using the `scraping.py` script.
+
+
 ##### `scraping.py`
 
 This script automates the acquisition of textual data from webpages corresponding to political figures. It operates in two stages:
 
-1. **Input Parsing**:
+**Input Parsing**:
    The script begins by loading a JSON file (`politicians_search_results.json`) that contains structured search results from Google, including organic search links and associated search queries (e.g., politician names).
 
-2. **Asynchronous Web Scraping**:
+**Asynchronous Web Scraping**:
    For each query (e.g., a politician’s name), the script:
 
    * Extracts all valid URLs from the organic search results.
@@ -34,10 +46,33 @@ This script automates the acquisition of textual data from webpages correspondin
    * Extracts a fixed-size textual window (500 characters) centered around the first occurrence of Politician name or surname using the `extract_text_window()` function to ensure relevant context is captured.
    * Filters out invalid or non-textual responses and aggregates valid entries under each query.
 
-3. **Output**:
+**Output**:
    The script writes the final output to a JSON file (`extracted_text_results.json`), where each key is a query (e.g., politician’s name) and the value is a list of dictionaries containing `link` and `text` pairs.
 
 This extracted text serves as the raw material for the embedding stage, where each sample is transformed into a high-dimensional vector representation using a sentence embedding model prior to classification.
+
+
+4. **Negative Sample Collection**  
+   Steps 2 and 3 were repeated to collect `negative` (non-political) samples. Five non-political topics were selected:  
+   - "Renewable energy storage solutions"  
+   - "Michelin-star restaurants in New York"  
+   - "Effects of microplastics on marine life"  
+   - "Latest advances in AI-generated art"  
+   - "History of jazz music in New Orleans"  
+   
+   These topics were adapted and translated for each country to ensure meaningful and contextually relevant results. Search results for these topics were gathered per country and then scraped. From each page, 10 text fragments of 500 characters were extracted.
+
+5. **Text Embedding and Dataset Splitting**  
+   All collected text fragments (both positive and negative) were embedded using Kaggle notebooks for [positive samples](https://www.kaggle.com/code/dzmitrypihulski/processing-texts-um) and [negative samples](https://www.kaggle.com/code/dzmitrypihulski/fork-of-processing-texts-um-zbi-r-testowy).  
+   The resulting dataset was split as follows:
+   - `data/datasets/train.jsonl`: Contains **only positive** samples (5,395 in total).
+   - `data/datasets/test.jsonl`: Contains an **equal number of positive and negative** samples (2,698 total).
+
+6. **Dataset Loading**  
+   The datasets can be loaded using the `data_loader.py` module.
+
+
+
 
 ##### `data_loader.py`
 
@@ -102,10 +137,12 @@ This script visualizes the experimental results generated in `results_nu.jsonl`.
 * Trends and variances to assist in selecting optimal configurations.
 
 
-
+---
 
 ##### `03_embedding_analysis.py`
 This script analyzes the internal structure and similarity of embeddings produced by three multilingual models: XLM-RoBERTa, LaBSE, and Distilled BERT. It computes intra-group variances (how dispersed the embedding dimensions are within each model) and inter-group distances (how far apart the average embeddings of different models are). Results are saved both as a textual report and as bar plots.
+
+---
 
 ##### `04_PCA.py`
 This script performs a PCA-based analysis of text embeddings to answer three research questions: (1) how many components are needed to retain various levels of variance across models (XLM-RoBERTa, LaBSE, Distilled BERT); (2) how well political texts and outliers separate in 2D and 3D PCA space; and (3) which components are most discriminative between the two classes. The script produces informative plots and logs summarizing variance thresholds, class separability, and component-wise interpretability.
