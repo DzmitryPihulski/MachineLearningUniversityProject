@@ -265,7 +265,7 @@ class EmbeddingAnalyzer:
         # Clean up pair names for display
         clean_pairs = [pair.replace(" vs ", "\nvs\n") for pair in pairs]
 
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(9.5, 6.5))
         bars = plt.bar(
             clean_pairs,
             distances,
@@ -321,7 +321,7 @@ class EmbeddingAnalyzer:
             for model in models
         ]
 
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(9.5, 6.5))
         bars = plt.bar(
             models,
             mean_variances,

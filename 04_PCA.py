@@ -41,7 +41,7 @@ class PCAResearchFramework:
         logging.info(f"Class distribution: {np.bincount(self.labels)}")
 
     def research_1_variance_analysis(
-        self, loader, max_components=200, output_path="data/plots/PCA/"
+        self, loader, max_components=600, output_path="data/plots/PCA/"
     ):
         """
         Research Question 1: How much variance do we need to retain?
@@ -221,9 +221,9 @@ class PCAResearchFramework:
                 embeddings_2d[mask, 0],
                 embeddings_2d[mask, 1],
                 c=colors[i],
-                alpha=0.6,
+                alpha=0.4,
                 label=class_mapping[label],
-                s=10,
+                s=1,
             )
         plt.xlabel(f"PC1 ({pca_2d.explained_variance_ratio_[0]:.3f} variance)")
         plt.ylabel(f"PC2 ({pca_2d.explained_variance_ratio_[1]:.3f} variance)")
@@ -248,9 +248,9 @@ class PCAResearchFramework:
                 embeddings_3d[mask, 1],
                 embeddings_3d[mask, 2],
                 c=colors[i],
-                alpha=0.6,
+                alpha=0.3,
                 label=class_mapping[label],
-                s=10,
+                s=1,
             )
 
         ax.set_xlabel(f"PC1 ({pca_3d.explained_variance_ratio_[0]:.3f})")

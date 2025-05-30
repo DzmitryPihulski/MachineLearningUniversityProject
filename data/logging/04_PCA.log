@@ -1,66 +1,66 @@
-2025-05-27 16:07:36,377 - INFO - Data shape: (8093, 768)
-2025-05-27 16:07:36,378 - INFO - Class distribution: [1349 6744]
-2025-05-27 16:07:36,378 - INFO - STARTING COMPREHENSIVE PCA RESEARCH ON TEXT EMBEDDINGS
-2025-05-27 16:07:36,378 - INFO - ================================================================================
-2025-05-27 16:07:36,379 - INFO - 
+2025-05-30 12:16:51,588 - INFO - Data shape: (8093, 768)
+2025-05-30 12:16:51,589 - INFO - Class distribution: [1349 6744]
+2025-05-30 12:16:51,589 - INFO - STARTING COMPREHENSIVE PCA RESEARCH ON TEXT EMBEDDINGS
+2025-05-30 12:16:51,589 - INFO - ================================================================================
+2025-05-30 12:16:51,589 - INFO - 
 ============================================================
-2025-05-27 16:07:36,379 - INFO - RESEARCH 1: VARIANCE ANALYSIS
-2025-05-27 16:07:36,379 - INFO - ============================================================
-2025-05-27 16:07:36,379 - INFO - 
+2025-05-30 12:16:51,589 - INFO - RESEARCH 1: VARIANCE ANALYSIS
+2025-05-30 12:16:51,589 - INFO - ============================================================
+2025-05-30 12:16:51,589 - INFO - 
 Processing model: xlm-roberta
-2025-05-27 16:07:41,230 - INFO - xlm-roberta - Components needed for 80% variance: 85
-2025-05-27 16:07:41,231 - INFO - xlm-roberta - Components needed for 85% variance: 122
-2025-05-27 16:07:41,231 - INFO - xlm-roberta - Components needed for 90% variance: 179
-2025-05-27 16:07:41,231 - INFO - xlm-roberta - Components needed for 95% variance: 1
-2025-05-27 16:07:41,231 - INFO - xlm-roberta - Components needed for 99% variance: 1
-2025-05-27 16:07:41,231 - INFO - 
+2025-05-30 12:16:56,400 - INFO - xlm-roberta - Components needed for 80% variance: 85
+2025-05-30 12:16:56,400 - INFO - xlm-roberta - Components needed for 85% variance: 122
+2025-05-30 12:16:56,400 - INFO - xlm-roberta - Components needed for 90% variance: 179
+2025-05-30 12:16:56,400 - INFO - xlm-roberta - Components needed for 95% variance: 284
+2025-05-30 12:16:56,400 - INFO - xlm-roberta - Components needed for 99% variance: 525
+2025-05-30 12:16:56,400 - INFO - 
 Processing model: labse
-2025-05-27 16:07:45,983 - INFO - labse - Components needed for 80% variance: 99
-2025-05-27 16:07:45,983 - INFO - labse - Components needed for 85% variance: 116
-2025-05-27 16:07:45,983 - INFO - labse - Components needed for 90% variance: 137
-2025-05-27 16:07:45,983 - INFO - labse - Components needed for 95% variance: 166
-2025-05-27 16:07:45,983 - INFO - labse - Components needed for 99% variance: 1
-2025-05-27 16:07:45,983 - INFO - 
+2025-05-30 12:17:01,336 - INFO - labse - Components needed for 80% variance: 99
+2025-05-30 12:17:01,336 - INFO - labse - Components needed for 85% variance: 116
+2025-05-30 12:17:01,336 - INFO - labse - Components needed for 90% variance: 137
+2025-05-30 12:17:01,336 - INFO - labse - Components needed for 95% variance: 166
+2025-05-30 12:17:01,336 - INFO - labse - Components needed for 99% variance: 240
+2025-05-30 12:17:01,336 - INFO - 
 Processing model: distill_bert
-2025-05-27 16:07:50,809 - INFO - distill_bert - Components needed for 80% variance: 60
-2025-05-27 16:07:50,809 - INFO - distill_bert - Components needed for 85% variance: 90
-2025-05-27 16:07:50,809 - INFO - distill_bert - Components needed for 90% variance: 138
-2025-05-27 16:07:50,809 - INFO - distill_bert - Components needed for 95% variance: 1
-2025-05-27 16:07:50,809 - INFO - distill_bert - Components needed for 99% variance: 1
-2025-05-27 16:07:51,194 - INFO - 
+2025-05-30 12:17:06,178 - INFO - distill_bert - Components needed for 80% variance: 60
+2025-05-30 12:17:06,178 - INFO - distill_bert - Components needed for 85% variance: 90
+2025-05-30 12:17:06,178 - INFO - distill_bert - Components needed for 90% variance: 138
+2025-05-30 12:17:06,178 - INFO - distill_bert - Components needed for 95% variance: 229
+2025-05-30 12:17:06,178 - INFO - distill_bert - Components needed for 99% variance: 477
+2025-05-30 12:17:06,541 - INFO - 
 ================================================================================
-2025-05-27 16:07:51,195 - INFO - VARIANCE THRESHOLD SUMMARY
-2025-05-27 16:07:51,195 - INFO - ================================================================================
-2025-05-27 16:07:51,195 - INFO - Model           80%      85%      90%      95%      99%     
-2025-05-27 16:07:51,195 - INFO - --------------------------------------------------------------------------------
-2025-05-27 16:07:51,195 - INFO - xlm-roberta     85       122      179      1        1       
-2025-05-27 16:07:51,195 - INFO - labse           99       116      137      166      1       
-2025-05-27 16:07:51,195 - INFO - distill_bert    60       90       138      1        1       
-2025-05-27 16:07:51,195 - INFO - 
+2025-05-30 12:17:06,541 - INFO - VARIANCE THRESHOLD SUMMARY
+2025-05-30 12:17:06,541 - INFO - ================================================================================
+2025-05-30 12:17:06,541 - INFO - Model           80%      85%      90%      95%      99%     
+2025-05-30 12:17:06,541 - INFO - --------------------------------------------------------------------------------
+2025-05-30 12:17:06,541 - INFO - xlm-roberta     85       122      179      284      525     
+2025-05-30 12:17:06,541 - INFO - labse           99       116      137      166      240     
+2025-05-30 12:17:06,541 - INFO - distill_bert    60       90       138      229      477     
+2025-05-30 12:17:06,541 - INFO - 
 ============================================================
-2025-05-27 16:07:51,195 - INFO - RESEARCH 2: CLASS SEPARATION VISUALIZATION
-2025-05-27 16:07:51,195 - INFO - ============================================================
-2025-05-27 16:07:52,101 - INFO - 2D Variance captured: 0.1610
-2025-05-27 16:07:52,101 - INFO - 3D Variance captured: 0.2203
-2025-05-27 16:07:52,101 - INFO - 
+2025-05-30 12:17:06,541 - INFO - RESEARCH 2: CLASS SEPARATION VISUALIZATION
+2025-05-30 12:17:06,541 - INFO - ============================================================
+2025-05-30 12:17:07,618 - INFO - 2D Variance captured: 0.1610
+2025-05-30 12:17:07,618 - INFO - 3D Variance captured: 0.2203
+2025-05-30 12:17:07,618 - INFO - 
 ============================================================
-2025-05-27 16:07:52,101 - INFO - RESEARCH 3: PRINCIPAL COMPONENT ANALYSIS
-2025-05-27 16:07:52,101 - INFO - ============================================================
-2025-05-27 16:07:52,340 - INFO - Analyzing first 50 components...
-2025-05-27 16:07:52,341 - INFO - Total variance explained: 0.7282
-2025-05-27 16:07:52,360 - INFO - 
+2025-05-30 12:17:07,618 - INFO - RESEARCH 3: PRINCIPAL COMPONENT ANALYSIS
+2025-05-30 12:17:07,618 - INFO - ============================================================
+2025-05-30 12:17:08,200 - INFO - Analyzing first 50 components...
+2025-05-30 12:17:08,201 - INFO - Total variance explained: 0.7282
+2025-05-30 12:17:08,221 - INFO - 
 Most discriminative components (by class mean difference):
-2025-05-27 16:07:52,361 - INFO - Component 6: Mean difference = 7.0424
-2025-05-27 16:07:52,361 - INFO - Component 9: Mean difference = 5.5363
-2025-05-27 16:07:52,361 - INFO - Component 3: Mean difference = 3.7103
-2025-05-27 16:07:52,361 - INFO - Component 7: Mean difference = 3.5950
-2025-05-27 16:07:52,361 - INFO - Component 1: Mean difference = 3.5715
-2025-05-27 16:07:52,361 - INFO - Component 5: Mean difference = 2.3485
-2025-05-27 16:07:52,361 - INFO - Component 2: Mean difference = 1.9778
-2025-05-27 16:07:52,361 - INFO - Component 14: Mean difference = 1.9320
-2025-05-27 16:07:52,361 - INFO - Component 4: Mean difference = 1.6215
-2025-05-27 16:07:52,361 - INFO - Component 10: Mean difference = 1.2862
-2025-05-27 16:07:52,526 - INFO - 
+2025-05-30 12:17:08,221 - INFO - Component 6: Mean difference = 7.0424
+2025-05-30 12:17:08,221 - INFO - Component 9: Mean difference = 5.5363
+2025-05-30 12:17:08,221 - INFO - Component 3: Mean difference = 3.7103
+2025-05-30 12:17:08,221 - INFO - Component 7: Mean difference = 3.5950
+2025-05-30 12:17:08,221 - INFO - Component 1: Mean difference = 3.5715
+2025-05-30 12:17:08,221 - INFO - Component 5: Mean difference = 2.3485
+2025-05-30 12:17:08,221 - INFO - Component 2: Mean difference = 1.9778
+2025-05-30 12:17:08,221 - INFO - Component 14: Mean difference = 1.9320
+2025-05-30 12:17:08,221 - INFO - Component 4: Mean difference = 1.6215
+2025-05-30 12:17:08,221 - INFO - Component 10: Mean difference = 1.2862
+2025-05-30 12:17:08,397 - INFO - 
 ================================================================================
-2025-05-27 16:07:52,526 - INFO - RESEARCH COMPLETE!
-2025-05-27 16:07:52,526 - INFO - ================================================================================
+2025-05-30 12:17:08,397 - INFO - RESEARCH COMPLETE!
+2025-05-30 12:17:08,397 - INFO - ================================================================================
