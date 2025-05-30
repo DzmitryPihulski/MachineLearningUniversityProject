@@ -57,18 +57,86 @@ class EmbeddingAnalyzer:
         self.intra_group_results = results
         return results
 
+    # def compute_inter_group_distances(self):
+    #     """
+    #     Compute distances between average embeddings of different models.
+    #     """
+    #     results = {}
+
+    #     # First compute average embeddings for each model
+    #     model_averages = {}
+    #     for model in self.models:
+    #         embeddings = np.array(self.embeddings_by_model[model])
+    #         if len(embeddings) > 0:
+    #             model_averages[model] = np.mean(embeddings, axis=0)
+
+    #     # Compute pairwise distances between model averages
+    #     model_pairs = [
+    #         ("xlm-roberta", "labse"),
+    #         ("xlm-roberta", "distill_bert"),
+    #         ("labse", "distill_bert"),
+    #     ]
+    #     model_name_mapping = {
+    #         "xlm-roberta": "XLM-RoBERTa",
+    #         "labse": "LaBSE",
+    #         "distill_bert": "Distilled BERT",
+    #     }
+
+    #     for model1, model2 in model_pairs:
+    #         if model1 in model_averages and model2 in model_averages:
+    #             avg1 = model_averages[model1]
+    #             avg2 = model_averages[model2]
+
+    #             # Handle different embedding dimensions
+    #             min_dim = min(len(avg1), len(avg2))
+    #             avg1_trimmed = avg1[:min_dim]
+    #             avg2_trimmed = avg2[:min_dim]
+
+    #             # Compute euclidean distance
+    #             distance = np.linalg.norm(avg1_trimmed - avg2_trimmed)
+
+    #             pair_key = (
+    #                 f"{model_name_mapping[model1]} vs {model_name_mapping[model2]}"
+    #             )
+    #             results[pair_key] = {
+    #                 "distance": distance,
+    #                 "mean_distance": distance,  # Keep for compatibility with report format
+    #                 "std_distance": 0.0,  # Single distance, so std is 0
+    #                 "min_distance": distance,
+    #                 "max_distance": distance,
+    #             }
+
+    #     self.inter_group_results = results
+    #     return results
+
     def compute_inter_group_distances(self):
         """
-        Compute distances between average embeddings of different models.
+        Compute distances between average embeddings of different models using 10-fold cross-validation.
         """
-        results = {}
+        from sklearn.model_selection import KFold
 
-        # First compute average embeddings for each model
-        model_averages = {}
+        results = {}
+        n_folds = 10
+
+        # First compute fold-average embeddings for each model
+        model_fold_averages = {}
+
         for model in self.models:
             embeddings = np.array(self.embeddings_by_model[model])
-            if len(embeddings) > 0:
-                model_averages[model] = np.mean(embeddings, axis=0)
+            if len(embeddings) == 0:
+                continue
+
+            # Create 10-fold cross-validation splits
+            kf = KFold(n_splits=n_folds, shuffle=True, random_state=42)
+            fold_averages = []
+
+            for train_idx, _ in kf.split(embeddings):
+                # Use 9 folds (train_idx) to compute average embedding
+                train_embeddings = embeddings[train_idx]
+                fold_average = np.mean(train_embeddings, axis=0)
+                fold_averages.append(fold_average)
+
+            model_fold_averages[model] = fold_averages
 
         # Compute pairwise distances between model averages
         model_pairs = [
@@ -83,27 +151,40 @@ class EmbeddingAnalyzer:
         }
 
         for model1, model2 in model_pairs:
-            if model1 in model_averages and model2 in model_averages:
-                avg1 = model_averages[model1]
-                avg2 = model_averages[model2]
+            if model1 in model_fold_averages and model2 in model_fold_averages:
+                fold_averages1 = model_fold_averages[model1]
+                fold_averages2 = model_fold_averages[model2]
 
-                # Handle different embedding dimensions
-                min_dim = min(len(avg1), len(avg2))
-                avg1_trimmed = avg1[:min_dim]
-                avg2_trimmed = avg2[:min_dim]
+                # Compute all pairwise distances (10x10 = 100 distances)
+                distances = []
 
-                # Compute euclidean distance
-                distance = np.linalg.norm(avg1_trimmed - avg2_trimmed)
+                for avg1 in fold_averages1:
+                    for avg2 in fold_averages2:
+                        # Handle different embedding dimensions
+                        min_dim = min(len(avg1), len(avg2))
+                        avg1_trimmed = avg1[:min_dim]
+                        avg2_trimmed = avg2[:min_dim]
+
+                        # Compute euclidean distance
+                        distance = np.linalg.norm(avg1_trimmed - avg2_trimmed)
+                        distances.append(distance)
+
+                # Compute statistics
+                distances = np.array(distances)
+                mean_distance = np.mean(distances)
+                std_distance = np.std(distances)
+                min_distance = np.min(distances)
+                max_distance = np.max(distances)
 
                 pair_key = (
                     f"{model_name_mapping[model1]} vs {model_name_mapping[model2]}"
                 )
                 results[pair_key] = {
-                    "distance": distance,
-                    "mean_distance": distance,  # Keep for compatibility with report format
-                    "std_distance": 0.0,  # Single distance, so std is 0
-                    "min_distance": distance,
-                    "max_distance": distance,
+                    "distance": mean_distance,  # Keep for compatibility
+                    "mean_distance": mean_distance,
+                    "std_distance": std_distance,
+                    "min_distance": min_distance,
+                    "max_distance": max_distance,
                 }
 
         self.inter_group_results = results
@@ -155,7 +236,9 @@ class EmbeddingAnalyzer:
         for pair_key, results in self.inter_group_results.items():
             pair_name = pair_key.upper().replace(" VS ", " VS ")
             report_lines.append(f"{pair_name}:")
-            report_lines.append(f"  Distance: {results['distance']:.6f}")
+            report_lines.append(
+                f"  Distance: {results['distance']:.6f}, STD: {results['std_distance']:.6f}"
+            )
             report_lines.append("")
 
         # Save report to file
@@ -175,13 +258,20 @@ class EmbeddingAnalyzer:
 
         pairs = list(self.inter_group_results.keys())
         distances = [self.inter_group_results[pair]["distance"] for pair in pairs]
+        std_distances = [
+            self.inter_group_results[pair]["std_distance"] for pair in pairs
+        ]
 
         # Clean up pair names for display
         clean_pairs = [pair.replace(" vs ", "\nvs\n") for pair in pairs]
 
         plt.figure(figsize=(10, 6))
         bars = plt.bar(
-            clean_pairs, distances, color=["#E74C3C", "#3498DB", "#2ECC71"], alpha=0.8
+            clean_pairs,
+            distances,
+            yerr=std_distances,
+            color=["#E74C3C", "#3498DB", "#2ECC71"],
+            alpha=0.8,
         )
 
         plt.title(

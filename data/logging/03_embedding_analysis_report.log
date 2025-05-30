@@ -26,10 +26,10 @@ DISTILL_BERT:
 ----------------------------------------
 
 XLM-ROBERTA VS LABSE:
-  Distance: 18.931346
+  Distance: 18.931347, STD: 0.000214
 
 XLM-ROBERTA VS DISTILLED BERT:
-  Distance: 20.166886
+  Distance: 20.166896, STD: 0.000909
 
 LABSE VS DISTILLED BERT:
-  Distance: 6.069606
+  Distance: 6.069639, STD: 0.001323
