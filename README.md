@@ -2,6 +2,10 @@
 
 This repository contains code and data for a research project focused on evaluating different kernels used in the One-Class SVM (OC-SVM) algorithm for one-class classification problems. The objective of this study is to assess the upper bound on the fraction of training errors based on text embeddings of political and non-political content.
 
+
+**Reproducibility**: To ensure reproducibility, we recommend downloading the pre-collected datasets (links provided in the data section below) rather than re-scraping the data, as websites may have changed or become unavailable since data collection. The experiments can then be reproduced by running files 01-04 with the provided datasets.
+
+
 ## 1. List and Description of Files
 
 ### 1.1 Data
@@ -9,7 +13,7 @@ This repository contains code and data for a research project focused on evaluat
 The `data` folder doesn't have `datasets` folder, but it can be downloaded via the following link:
 [Google Drive - Datasets Folder](https://drive.google.com/drive/folders/11AmxtSDsoE1bGa2_vg7HkEt6N4ORRL4Z?usp=sharing). 
 
-This folder contains structured datasets used throughout the experimentation process, including both raw web-scraped data and pre-processed text embeddings. It is **highly recommended** to download it firstly
+This folder contains structured datasets used throughout the experimentation process, including both raw web-scraped data and pre-processed text embeddings. It is **highly recommended** to download it firstly for reproducibility
 
 ---
 
